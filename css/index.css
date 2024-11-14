@@ -135,22 +135,52 @@ header{
 }
 #divTituloTres{
     margin-left: 5%;
-    height: 10vh;
+    height: 25vh;
 }
 .tituloTres{
     margin-top: 5%;
     width: 20rem;
 }
 #divEquipo{
-    height: 70vh;
-}
-#divManosTres{
-    height: 20vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+}
+#divEquipoUno{
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#divEquipoDos{
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#divEquipoTres{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#divEquipoCuatro{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
     align-items: end;
-    justify-content: end;
+}
+.imgEquipo{
+    height: 15rem;
+}
+.imgEquipoCuatro{
+    padding-left: 10%;
+    height: 15rem;
 }
 .manosTres{
+    position: absolute;
+    right: 0;
     width: 15rem;
 }
 
@@ -303,7 +333,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
 }
 #divTituloSiete{
     display: flex;
