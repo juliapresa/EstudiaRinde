@@ -1,0 +1,783 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+header{
+    background-image: url(../assets/header.png);
+    background-size: contain;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navLink{
+    background-color: white;
+    border-radius: 1rem;
+    border-color: black;
+}
+#iconos{
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ancla{
+    text-decoration: none;
+    color: black;
+    padding: 25%;
+    background-color: white;
+    border-radius: 1rem;
+}
+.icono:hover{
+    text-decoration: underline;
+}
+
+#inicio{
+    background-image: url(../assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.divTitulo{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    width: 800px;
+    height: auto;
+}
+.divMuñecaUno{
+    width: 30%;
+}
+.muñecaUno{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.logos{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.divBarraCelesteInferior{
+    width: 100vw;
+    margin: 0%;
+    height: 43px;
+}
+.barraCelesteInferior{
+    width: 100vw;
+    margin: 0%;
+    height: auto;
+}
+
+#paginaDos{
+    background-image: url(../assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.divPaginaDosUno{
+    height: 30vh;
+    display: flex;
+}
+.textoUno{
+    margin-top: 2%;
+    width: auto;
+    height: 250px;
+}
+.divPaginaDosDos{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textoDos{
+    width: auto;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 7%;
+}
+.muñecoDos{
+    width: auto;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 20%;
+}
+
+
+
+#equipo{
+    background-image: url(../assets/fondoTres.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#divTituloTres{
+    margin-left: 5%;
+    height: 10vh;
+}
+.tituloTres{
+    margin-top: 5%;
+    width: 20rem;
+}
+#divEquipo{
+    height: 70vh;
+}
+#divManosTres{
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.manosTres{
+    width: 15rem;
+}
+
+
+#paginaCuatro{
+    background-image: url(../assets/fondoCuatro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#divTituloCuatro{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+.tituloCuatro{
+    width: 80vw;
+}
+#divPaginaCuatro{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+#divComentarioUno{
+    position: absolute;
+    left: 0;
+    padding-top: 8%;
+    margin-left: 5rem;
+}
+#divComentarioDos{
+    position: absolute;
+    right: 0;
+    padding-top: 12%;
+    margin-right: 5rem;
+}
+#divComentarioTres{
+    position: absolute;
+    left: 0;
+    padding-top: 14%;
+    margin-left: 5rem;
+}
+#divComentarioCuatro{
+    position: absolute;
+    right: 0;
+    padding-top: 16%;
+    margin-right: 15rem;
+}
+.imgComentario{
+   height: 5rem;
+}
+#divPaginaCuatroDos{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+#divTarjetaComentarioUno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-left: 1rem;
+    width: 25vw;
+    margin-right: 4%;
+}
+#divTarjetaComentarioDos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 25vw;
+}
+#divTarjetaComentarioTres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 25vw;
+}
+.imgTarjeta{
+    height: 23rem;
+}
+#divImgMuñecaCuatro{
+    display: flex;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 5%;
+}
+#imgMuñecaCuatro{
+    height: 28rem;
+    display: flex;
+    align-self: flex-end;
+}
+
+
+
+
+
+#sabiasQue{
+    background-image: url(../assets/fondoCinco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#divTituloCinco{
+    margin-left: 5%;
+    height: 20vh;
+}
+.tituloCinco{
+    margin-top: 2%;
+    width: 20rem;
+}
+.divTarjeta{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+}
+.tarjeta{
+    width: auto;
+    height: 30vh;
+}
+
+#graficas{
+    background-image: url(../assets/fondoSeis.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgCarruselUno{
+    width: 80vw;
+    height: 90vh;
+    margin-top: 3%;
+}
+#buttonCarousel{
+    color: black;
+}
+
+
+
+#estudiarRinde{
+    background-image: url(../assets/fondoSiete.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 95vh;
+}
+#divTituloSiete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 0;
+    padding: 3%;
+    height: 33%;
+}
+.tituloSiete{
+    height: 15rem;
+}
+.divERTarjetas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    height: 33%;
+}
+.eRTarjetaUno{
+    height: 25vh;
+    margin-top: 5%;
+}
+.eRTarjetaDos{
+    height: 25vh;
+}
+.eRTarjetaTres{
+    height: 25vh;
+    margin-bottom: 5%;
+}
+
+
+
+#paginaOcho{
+    background-image: url(../assets/contactoFondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.divPaginaOcho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+.logosDos{
+    margin-right: 2%;
+    position: absolute;
+    right: 0;
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+    header{
+        background-image: url(../assets/header.png);
+        background-size: contain;
+        height: fit-content;
+    }
+    #iconos{
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #inicio{
+        background-image: url(../assets/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100vw;
+        height: fit-content;
+    }
+    .divTitulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: fit-content;
+        margin: 0;
+        padding-top: 20%;
+    }
+    .titulo{
+        width: 90vw;
+        height: auto;
+        padding: 0%;
+        padding-bottom: 0;
+    }
+    .divMuñecaUno{
+        height: fit-content;
+        display: flex;
+        justify-content: right;
+        width: 100vw;
+    }
+    .muñecaUno{
+        width: 50vw;
+        height: auto;
+        position: relative;
+        right: 0;
+        margin-bottom: 5vh;
+    }
+    .divLogos{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100vw;
+        height: fit-content;
+    }
+    .logos{
+        position: relative;
+        width: 90vw;
+        height: auto;
+        left: auto;
+    }
+    .divBarraCelesteInferior{
+        width: 100vw;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    .barraCelesteInferior{
+        width: 100vw;
+        height: 5vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #paginaDos{
+        background-image: url(../assets/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: fit-content;
+    }
+    .divPaginaDosUno{
+        height: fit-content;
+        display: flex;
+    }
+    .textoUno{
+        margin-top: 2%;
+        width: 90vw;
+        height: fit-content;
+    }
+    .divPaginaDosDos{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .textoDos{
+        width: 90vw;
+        height: auto;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-right: 10%;
+    }
+    .muñecoDos{
+        width: auto;
+        height: 300px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-left: 0%;
+    }
+    #equipo{
+        width: 100%;
+        height: 100vh;
+        padding: 3rem;
+    }
+    #imgCarrusel{
+        width: 80vw;
+        height: 80vh;
+    }
+
+
+    #paginaTres{
+        background-image: url(../assets/fondoTresCel.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: fit-content;
+        padding: 0%;
+    }
+    #divTituloTres{
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        height: fit-content;
+    }
+    .tituloTres{
+        margin-top: 5%;
+        width: 20rem;
+    }
+    #divEquipo{
+        height: 70vh;
+    }
+    #divManosTres{
+        height: 20vh;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .manosTres{
+        width: 15rem;
+    }
+
+
+
+
+
+    #paginaCuatro{
+        background-image: url(../assets/fondoCuatro.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    #divTituloCuatro{
+        margin-top: 1%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+    .tituloCuatro{
+        width: 90vw;
+        height: auto;
+    }
+    #divPaginaCuatro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+    }
+    #divComentarioUno{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        left: auto;
+        padding-top: 2%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .flechaCuatro{
+        transform: rotate(90deg);
+        height: 10rem;
+    }
+    #divComentarioDos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        right: auto;
+        padding-top: 2%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #divComentarioTres{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        left: auto;
+        padding-top: 2%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #divComentarioCuatro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        right: auto;
+        padding-top: 2%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .imgComentario{
+       height: 4rem;
+       width:auto;
+    }
+    #divPaginaCuatroDos{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    #divTarjetaComentarioUno{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        margin-left: 1rem;
+        width: 25vw;
+        margin-right: 4%;
+    }
+    #divTarjetaComentarioDos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 25vw;
+    }
+    #divTarjetaComentarioTres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 25vw;
+    }
+    .imgTarjeta{
+        height: auto;
+        width: 50vw;
+    }
+    #divImgMuñecaCuatro{
+        display: flex;
+        align-self: flex-end;
+        margin-left: auto;
+        margin-right: 5%;
+    }
+    #imgMuñecaCuatro{
+        height: 20rem;
+        display: flex;
+        align-self: flex-end;
+    }
+    
+
+
+
+
+
+    #sabiasQue{
+        background-image: url(../assets/fondoTresCel.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: fit-content;
+    }
+    #divTituloCinco{
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        margin-bottom: 5%;
+        height: fit-content;
+    }
+    .tituloCinco{
+        margin-top: 2%;
+        width: 60vw;
+    }
+    .divTarjeta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .tarjeta{
+        padding: 2%;
+        width: 50vw;
+        height: auto;
+    }
+
+
+
+
+
+    #estudiarRinde{
+        background-image: url(../assets/fondoSiete.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: fit-content;
+    }
+    #divTituloSiete{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 100vw;
+        margin: 0;
+        padding: 3%;
+    }
+    .tituloSiete{
+        width: 70vw;
+        height: auto;
+    }
+    .divERTarjetas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .eRTarjetaUno{
+        width: 50vw;
+        height: auto;
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    .eRTarjetaDos{
+        width: 50vw;
+        height: auto;
+        margin-bottom: 2%;
+    }
+    .eRTarjetaTres{
+        width: 50vw;
+        height: auto;
+        margin-bottom: 2%;
+    }
+    
+
+
+    #paginaOcho{
+        background-image: url(../assets/contactoFondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: fit-content;
+    }
+    .divPaginaOcho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 90vh;
+    }
+    .divLogosDos{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    .logosDos{
+        position: relative;
+        width: 90vw;
+        height: auto;
+        right: auto;
+        margin: 0%;
+        margin-bottom: 1%;
+    }
+    .imgPaginaOcho{
+        width: 80vw;
+    }
+    .imgPaginaOchoDos{
+        transform: rotate(45deg);
+        width: 20vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
