@@ -923,7 +923,13 @@ header{
     #buttonCarousel{
         color: black;
     }
-    .imgCarruselUno {
+    .imgCarruselUnoGraficas {
+        display: none;
+      }
+      .imgCarruselUnoIngresos {
+        display: none;
+      }
+      .imgCarruselUnoOcupaciones {
         display: none;
       }
     .titulito{
