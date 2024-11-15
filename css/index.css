@@ -326,13 +326,13 @@ header{
     display: flex;
     justify-content: center;
 }
-#imgCarruselUno{
+.imgCarruselUno{
     width: 60vw;
     height: auto;
     margin-top: 3%;
     transition: transform 0.3s ease;
 }
-#imgCarruselUno:hover{
+.imgCarruselUno:hover{
     transform: scale(1.3);
 }
 #buttonCarousel{

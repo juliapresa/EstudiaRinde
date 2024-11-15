@@ -14,25 +14,26 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light $purple-800">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav">
-                  <a title="inicio" class="navLink nav-link active" aria-current="page" href="#inicio">INICIO</a>
-                  <a title="equipo" class="navLink nav-link" href="#equipo">EQUIPO</a>
-                  <a title="sabiasque" class="navLink nav-link" href="#sabiasQue">SABÍAS QUÉ</a>
-                  <a title="graficas" class="navLink nav-link" href="#graficas">GRAFICAS</a>
-                  <a title="estudiarRinde" class="navLink nav-link" href="#estudiarRinde">ESTUDIAR RINDE</a>
-                </div>
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="navbar-nav">
+                <a title="inicio" class="navLink nav-link active" aria-current="page" href="#inicio">INICIO</a>
+                <a title="equipo" class="navLink nav-link" href="#equipo">EQUIPO</a>
+                <a title="sabiasque" class="navLink nav-link" href="#sabiasQue">SABÍAS QUÉ</a>
+                <a title="graficas" class="navLink nav-link" href="#graficas">GRAFICAS</a>
+                <a title="estudiarRinde" class="navLink nav-link" href="#estudiarRinde">ESTUDIAR RINDE</a>
               </div>
+            </div>
               <div id="iconos">
                 <a title="redes" class="ancla" target="_blank" href="https://www.instagram.com/estudiarrinde?igsh=MTZsNXBzMThyZmdpNA== "><i class="fa-brands fa-instagram fa-xl icono"></i></a>
                 <a title="redes" class="ancla" target="_blank" href="mailto:estudiar.rinde@cienciassociales.edu.uy"><i class="fa-solid fa-envelope fa-xl icono"></i></a>
               </div>
-          </nav>
+          </div>
+        </nav>
     </header>
     <main>
-        <section id="inicio">
+        <div id="inicio">
             <div class="divTitulo">
                 <img title="titulo" class="titulo" src="./assets/titulo.png" alt="titulo">
             </div>
@@ -42,13 +43,13 @@
             <div class="divLogos">
                 <img title="logos" class="logos" src="./assets/logos.png" alt="logos">
             </div>
-        </section>
+        </div>
 
         <div class="divBarraCelesteInferior">
             <img title="elemento" class="barraCelesteInferior" src="./assets/barraCelesteInferior.png" alt="barra">
         </div>
 
-        <section id="paginaDos">
+        <div id="paginaDos">
             <div class="divPaginaDosUno">
                 <img title="texto" class="textoUno" src="./assets/textoUno.png" alt="texto">
             </div>
@@ -57,9 +58,9 @@
                 <img title="ilustracion" class="muñecoDos" src="./assets/muñecoDos.png" alt="ilustracion">
                 <img title="texto" class="textoDos" src="./assets/textoDos.png" alt="texto">
             </div>
-        </section>
+        </div>
 
-        <section id="equipo">
+        <div id="equipo">
           <div id="divTituloTres">
             <img title="titulo" class="tituloTres" src="./assets/nuestroEquipo.png" alt="img">
           </div>
@@ -79,9 +80,9 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <section id="paginaCuatro">
+        <div id="paginaCuatro">
           <div id="divPaginaCuatro">
             <div id="divTituloCuatro">
               <img title="titulo" class="tituloCuatro" src="./assets/tituloCuatro.png" alt="img">
@@ -117,10 +118,10 @@
           <div class="divBarraCelesteInferior">
             <img title="elemento" class="barraCelesteInferior" src="./assets/barraCelesteInferior.png" alt="barra">
           </div>
-        </section>
+        </div>
 
 
-        <section id="sabiasQue">
+        <div id="sabiasQue">
           <div id="divTituloCinco">
             <img title="titulo" class="tituloCinco" src="./assets/sabiasQue.png" alt="img">
           </div>
@@ -134,24 +135,24 @@
             <img title="tarjeta" class="tarjeta hoverImage" src="./assets/tarjetaCinco.png" data-hover="assets/tarjetaCincoVuelta.png" alt="img">
             <img title="tarjeta" class="tarjeta hoverImage" src="./assets/tarjetaSeis.png" data-hover="assets/tarjetaSeisVuelta.png" alt="img">
           </div>
-        </section>
+        </div>
 
-        <section id="graficas">
+        <div id="graficas">
             <div id="carouselExampleDark" class="carousel carousel-dark slide carrusel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
                     <div class="divCarrusel">
-                      <img title="grafica" id="imgCarruselUno" src="./assets/graficas.png" class="d-block" alt="img">
+                      <img title="grafica" class="imgCarruselUno" src="./assets/graficas.png" class="d-block" alt="img">
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <div class="divCarrusel">
-                      <img title="grafica" id="imgCarruselUno" src="./assets/ocupacionesGrafica.png" class="d-block" alt="img">
+                      <img title="grafica" class="imgCarruselUno" src="./assets/ocupacionesGrafica.png" class="d-block" alt="img">
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="divCarrusel">
-                      <img title="grafica" id="imgCarruselUno" src="./assets/ingresosGrafica.png" class="d-block" alt="img">
+                      <img title="grafica" class="imgCarruselUno" src="./assets/ingresosGrafica.png" class="d-block" alt="img">
                     </div>
                   </div>
                 </div>
@@ -164,8 +165,8 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-        </section>
-        <section id="estudiarRinde">
+        </div>
+        <div id="estudiarRinde">
           <div class="divERTarjetas">
             <img title="tarjeta" class="eRTarjetaUno hoverImage" src="./assets/eRTarjetaUno.png" data-hover="assets/eRTarjetaUnoVuelta.png" alt="img">
             <img title="tarjeta" class="eRTarjetaDos hoverImage" src="./assets/eRTarjetaDos.png" data-hover="assets/eRTarjetaDosVuelta.png" alt="img">
@@ -181,9 +182,9 @@
           </div>
           <div>
           </div>
-        </section>
+        </div>
 
-        <section id="paginaOcho">
+        <div id="paginaOcho">
           <div class="divPaginaOcho">
             <img title="texto" class="imgPaginaOcho" src="./assets/contactoUno.png" alt="img">
             <img title="elemento" class="imgPaginaOchoDos" src="./assets/contactoFlecha.png" alt="img">
@@ -192,7 +193,7 @@
           <div class="divLogosDos">
             <img title="logos" class="logosDos" src="./assets/logos.png" alt="logos">
           </div>
-        </section>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/eb5d67a816.js" crossorigin="anonymous"></script>
