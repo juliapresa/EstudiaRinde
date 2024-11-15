@@ -17,6 +17,9 @@ header{
     border-radius: 1rem;
     border-color: black;
 }
+.navLink:hover{
+    text-decoration: underline;
+}
 #iconos{
     margin-right: 5%;
     display: flex;
