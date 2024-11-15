@@ -20,6 +20,7 @@ header{
 .navLink:hover{
     text-decoration: underline;
 }
+
 #iconos{
     margin-right: 5%;
     display: flex;
@@ -204,6 +205,7 @@ header{
 }
 .tituloCuatro{
     width: 80vw;
+    height: 10vh;
 }
 #divPaginaCuatro{
     display: flex;
@@ -231,8 +233,8 @@ header{
 #divComentarioCuatro{
     position: absolute;
     right: 0;
-    padding-top: 16%;
-    margin-right: 15rem;
+    padding-top: 18%;
+    margin-right: 5rem;
 }
 .imgComentario{
    height: 5rem;
@@ -266,7 +268,7 @@ header{
     width: 25vw;
 }
 .imgTarjeta{
-    height: 23rem;
+    height: 45vh;
 }
 #divImgMuñecaCuatro{
     display: flex;
@@ -275,7 +277,7 @@ header{
     margin-right: 5%;
 }
 #imgMuñecaCuatro{
-    height: 28rem;
+    height: 45vh;
     display: flex;
     align-self: flex-end;
 }
@@ -331,6 +333,7 @@ header{
     height: auto;
     margin-top: 3%;
     transition: transform 0.3s ease;
+    display: block;
 }
 .imgCarruselUno:hover{
     transform: scale(1.3);
@@ -338,7 +341,12 @@ header{
 #buttonCarousel{
     color: black;
 }
-
+.imgCarruselDos {
+    display: none;
+  }
+.titulito{
+    display: none;
+}
 
 
 #estudiarRinde{
@@ -409,7 +417,33 @@ header{
     header{
         background-image: url(../assets/header.png);
         background-size: contain;
+        width: 100vw;
         height: fit-content;
+    }
+    .navLink{
+        background-color: white;
+        border-radius: 1rem;
+        border-color: black;
+    }
+    .navLink:hover{
+        text-decoration: underline;
+    }
+    #iconos{
+        margin-right: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ancla{
+        text-decoration: none;
+        color: black;
+        padding: 25%;
+        background-color: white;
+        border-radius: 1rem;
+    }
+
+    .icono:hover{
+        text-decoration: underline;
     }
     #iconos{
         margin-right: 10%;
@@ -417,6 +451,9 @@ header{
         flex-direction: row;
         justify-content: space-between;
     }
+
+
+
     
     #inicio{
         background-image: url(../assets/fondo.jpg);
@@ -483,6 +520,8 @@ header{
         padding: 0;
     }
     
+
+
     #paginaDos{
         background-image: url(../assets/fondo.jpg);
         background-repeat: no-repeat;
@@ -491,34 +530,36 @@ header{
         flex-direction: column;
         position: relative;
         width: 100%;
-        height: fit-content;
+        height: 70vh;
     }
     .divPaginaDosUno{
-        height: fit-content;
+        height: 30vh;
         display: flex;
+        justify-content: flex-start;
     }
     .textoUno{
-        margin-top: 2%;
-        width: 90vw;
-        height: fit-content;
+        margin-top: 5%;
+        width: 80vw;
+        height: auto;
     }
     .divPaginaDosDos{
-        height: fit-content;
+        height: 60vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
+        align-items: flex-end;
     }
     .textoDos{
-        width: 90vw;
+        width: 70vw;
         height: auto;
         position: relative;
         bottom: 0;
         right: 0;
-        margin-right: 10%;
+        margin-right: 0;
     }
     .muñecoDos{
-        width: auto;
-        height: 300px;
+        width: 25vw;
+        height: auto;
         position: relative;
         bottom: 0;
         left: 0;
@@ -535,7 +576,9 @@ header{
     }
 
 
-    #paginaTres{
+
+
+    #equipo{
         background-image: url(../assets/fondoTresCel.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -550,20 +593,60 @@ header{
         height: fit-content;
     }
     .tituloTres{
-        margin-top: 5%;
-        width: 20rem;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 60vw;
+        height: auto;
     }
     #divEquipo{
-        height: 70vh;
+        height: fit-content;
+    }
+    #divEquipoUno{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #divEquipoDos{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #divEquipoTres{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+    #divEquipoCuatro{
+        width: 10vw;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    .imgEquipo{
+        width: 30vw;
+        height: auto;
+    }
+    .imgEquipoCuatro{
+        margin-left: 10vw;
+        padding-left: 0;
+        width: 30vw;
+        height: auto;
+    }
+    .manosTres{
+        position: absolute;
+        right: 0;
+        width: 30vw;
     }
     #divManosTres{
         height: 20vh;
         display: flex;
         align-items: end;
         justify-content: end;
-    }
-    .manosTres{
-        width: 15rem;
     }
 
 
@@ -574,16 +657,16 @@ header{
         background-image: url(../assets/fondoCuatro.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100vw;
-        height: fit-content;
         display: flex;
         flex-direction: column;
+        width: 100vw;
+        height: fit-content;
     }
     #divTituloCuatro{
-        margin-top: 1%;
         display: flex;
         justify-content: center;
-        margin-bottom: 3%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
     .tituloCuatro{
         width: 90vw;
@@ -604,13 +687,13 @@ header{
         height: fit-content;
         position: relative;
         left: auto;
-        padding-top: 2%;
+        padding-top: 1%;
         margin-left: 0;
         margin-right: 0;
     }
     .flechaCuatro{
         transform: rotate(90deg);
-        height: 10rem;
+        height: 5rem;
     }
     #divComentarioDos{
         display: flex;
@@ -620,7 +703,7 @@ header{
         height: fit-content;
         position: relative;
         right: auto;
-        padding-top: 2%;
+        padding-top: 1%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -632,7 +715,7 @@ header{
         height: fit-content;
         position: relative;
         left: auto;
-        padding-top: 2%;
+        padding-top: 1%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -644,20 +727,20 @@ header{
         height: fit-content;
         position: relative;
         right: auto;
-        padding-top: 2%;
+        padding-top: 1%;
         margin-left: 0;
         margin-right: 0;
     }
     .imgComentario{
-       height: 4rem;
-       width:auto;
+       width: 80vw;
+       height: auto;
     }
     #divPaginaCuatroDos{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         height: fit-content;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
     }
     #divTarjetaComentarioUno{
         display: flex;
@@ -665,7 +748,7 @@ header{
         justify-content: center;
         align-items: center;
         height: fit-content;
-        margin-left: 1rem;
+        margin-left: 1%;
         width: 25vw;
         margin-right: 4%;
     }
@@ -685,16 +768,17 @@ header{
     }
     .imgTarjeta{
         height: auto;
-        width: 50vw;
+        width: 20vw;
     }
     #divImgMuñecaCuatro{
         display: flex;
         align-self: flex-end;
         margin-left: auto;
-        margin-right: 5%;
+        margin-right: 1%;
     }
     #imgMuñecaCuatro{
-        height: 20rem;
+        width: 20vw;
+        height: auto;
         display: flex;
         align-self: flex-end;
     }
@@ -719,23 +803,69 @@ header{
         height: fit-content;
     }
     .tituloCinco{
-        margin-top: 2%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
         width: 60vw;
+        height: auto;
+
     }
     .divTarjeta{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         height: fit-content;
+        padding-bottom: 10vh;
     }
     .tarjeta{
         padding: 2%;
-        width: 50vw;
+        width: 30vw;
         height: auto;
     }
 
 
+
+
+    #graficas{
+        background-image: url(../assets/fondoSeis.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: fit-content;
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divCarrusel{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgCarruselDos{
+        width: 80vw;
+        height: auto;
+        margin-top: 3%;
+        transition: transform 0.3s ease;
+        display: block;
+    }
+    .imgCarruselDos:hover{
+        transform: scale(1.3);
+    }
+    #buttonCarousel{
+        color: black;
+    }
+    .imgCarruselUno {
+        display: none;
+      }
+    .titulito{
+        width: 70vw;
+        display: block;
+        height: auto;
+    }
 
 
 
@@ -754,7 +884,7 @@ header{
         height: fit-content;
         width: 100vw;
         margin: 0;
-        padding: 3%;
+        padding: 0%;
     }
     .tituloSiete{
         width: 70vw;
@@ -762,26 +892,31 @@ header{
     }
     .divERTarjetas{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         height: fit-content;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
     .eRTarjetaUno{
-        width: 50vw;
+        width: 30vw;
         height: auto;
         margin-top: 0%;
-        margin-bottom: 2%;
+        margin-bottom: 0%;
+        padding: 1%;
     }
     .eRTarjetaDos{
-        width: 50vw;
+        width: 30vw;
         height: auto;
-        margin-bottom: 2%;
+        margin-bottom: 0%;
+        padding: 1%;
     }
     .eRTarjetaTres{
-        width: 50vw;
+        width: 30vw;
         height: auto;
-        margin-bottom: 2%;
+        margin-bottom: 0%;
+        padding: 1%;
     }
     
 
@@ -790,7 +925,7 @@ header{
         background-image: url(../assets/contactoFondo.png);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 100%;
+        width: 100vw;
         height: fit-content;
     }
     .divPaginaOcho{
@@ -799,7 +934,9 @@ header{
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 90vh;
+        height: fit-content;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
     .divLogosDos{
         display: flex;
