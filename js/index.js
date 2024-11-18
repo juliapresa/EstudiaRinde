@@ -57,4 +57,22 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-  
+// Seleccionar todos los elementos que quieres animar
+const animadas = document.querySelectorAll('.animada');
+
+// Crear un observador
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Agregar las clases de animación de la librería
+            entry.target.classList.add('animate__animated', 'animate__fadeIn', 'animate__zoomIn');
+            // Dejar de observar el elemento después de animarlo
+            observer.unobserve(entry.target);
+        }
+    });
+}, {
+    threshold: 0.1 // Activar cuando el 10% del elemento es visible
+});
+
+// Observar cada elemento animado
+animadas.forEach(element => observer.observe(element));
