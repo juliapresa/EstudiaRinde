@@ -45,6 +45,9 @@ header{
     background-color: white;
     border-radius: 1rem;
 }
+.icono{
+    font-size: 25px;
+}
 .icono:hover{
     text-decoration: underline;
 }
@@ -515,7 +518,9 @@ header{
         background-color: white;
         border-radius: 1rem;
     }
-
+    .icono{
+        font-size: 20px;
+    }
     .icono:hover{
         text-decoration: underline;
     }
