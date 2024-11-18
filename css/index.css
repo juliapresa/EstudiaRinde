@@ -344,26 +344,26 @@ header{
 }
 .divCarrusel{
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
 .imgCarruselUnoGraficas{
-    width: 60vw;
+    width: 80vw;
     height: auto;
-    margin-top: 3%;
+    margin-top: 4%;
     display: block;
 }
 .imgCarruselUnoIngresos{
-    width: 60vw;
+    width: 80vw;
     height: auto;
-    margin-top: 3%;
+    margin-top: 4%;
     display: block;
 }
 .imgCarruselUnoOcupaciones{
-    width: 60vw;
+    width: 80vw;
     height: auto;
-    margin-top: 3%;
+    margin-top: 4%;
     display: block;
 }
 #buttonCarousel{
