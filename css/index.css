@@ -69,7 +69,7 @@ header{
     align-items: center;
 }
 .titulo{
-    width: 800px;
+    width: 50vw;
     height: auto;
 }
 .hidden {
@@ -82,8 +82,8 @@ header{
     width: 30%;
 }
 .muñecaUno{
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 70vh;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -319,7 +319,7 @@ header{
 }
 .tituloCinco{
     margin-top: 2%;
-    width: 20rem;
+    width: 25vw;
 }
 .divTarjeta{
     display: flex;
