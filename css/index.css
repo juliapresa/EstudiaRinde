@@ -163,7 +163,7 @@ header{
 }
 .tituloTres{
     margin-top: 5%;
-    width: 20rem;
+    width: 20vw;
 }
 #divEquipo{
     display: flex;
@@ -196,11 +196,11 @@ header{
     align-items: end;
 }
 .imgEquipo{
-    height: 15rem;
+    height: 30vh;
 }
 .imgEquipoCuatro{
     padding-left: 10%;
-    height: 15rem;
+    height: 30vh;
 }
 .manosTres{
     position: absolute;
@@ -349,19 +349,19 @@ header{
     justify-content: center;
 }
 .imgCarruselUnoGraficas{
-    width: 80vw;
+    width: 70vw;
     height: auto;
     margin-top: 4%;
     display: block;
 }
 .imgCarruselUnoIngresos{
-    width: 80vw;
+    width: 70vw;
     height: auto;
     margin-top: 4%;
     display: block;
 }
 .imgCarruselUnoOcupaciones{
-    width: 80vw;
+    width: 70vw;
     height: auto;
     margin-top: 4%;
     display: block;
