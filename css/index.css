@@ -94,6 +94,7 @@ header{
     bottom: 0;
     margin-bottom: 1%;
     margin-left: 1%;
+    width: 50vw;
 }
 .divBarraCelesteInferior{
     width: 100vw;
@@ -440,17 +441,17 @@ header{
     height: fit-content;
     margin: 0;
     padding: 3%;
-    height: 33%;
+    height: 33vh;
 }
 .tituloSiete{
-    height: 15rem;
+    height: 30vh;
 }
 .divERTarjetas{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: fit-content;
-    height: 33%;
+    height: 33vh;
 }
 .eRTarjetaUno{
     height: 25vh;
@@ -478,12 +479,23 @@ header{
     flex-direction: row;
     justify-content: center;
     height: 90vh;
+    width: 100vw;
     align-items: center;
+}
+.imgPaginaOcho{
+    width: 42vw;
+}
+.imgPaginaOchoDos{
+    width: 10vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 1%;
 }
 .logosDos{
     margin-right: 2%;
     position: absolute;
     right: 0;
+    width: 50vw;
 }
 @media screen and (min-width: 0px) and (max-width: 768px){
     body{
