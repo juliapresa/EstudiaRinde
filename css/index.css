@@ -526,9 +526,11 @@ header{
     .ancla{
         text-decoration: none;
         color: black;
-        padding: 25%;
+        padding: 15%;
+        width: fit-content;
         background-color: white;
         border-radius: 1rem;
+        margin-right: 10%;
     }
     .icono{
         font-size: 25px;
@@ -536,14 +538,6 @@ header{
     .icono:hover{
         text-decoration: underline;
     }
-    #iconos{
-        margin-right: 10%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-
 
     
     #inicio{
