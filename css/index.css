@@ -523,7 +523,7 @@ header{
     right: 0;
     width: 50vw;
 }
-@media screen and (min-width: 0px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 768px){
     body{
         margin: 0%;
         padding: 0%;
@@ -544,7 +544,7 @@ header{
         text-decoration: underline;
     }
     #iconos{
-        margin-right: 5%;
+        margin-right: 10%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1149,11 +1149,637 @@ header{
         text-decoration: underline;
     }
 }
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+    header{
+        background-image: url(../assets/header.png);
+        background-size: contain;
+        width: 100vw;
+        height: fit-content;
+    }
+    .navLink{
+        background-color: white;
+        border-radius: 1rem;
+        border-color: black;
+    }
+    .navLink:hover{
+        text-decoration: underline;
+    }
+    #iconos{
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ancla{
+        text-decoration: none;
+        color: black;
+        padding: 15%;
+        width: fit-content;
+        background-color: white;
+        border-radius: 1rem;
+        margin-right: 10%;
+    }
+    .icono{
+        font-size: 25px;
+    }
+    .icono:hover{
+        text-decoration: underline;
+    }
+
+    
+    #inicio{
+        background-image: url(../assets/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100vw;
+        height: fit-content;
+    }
+    .divTitulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: fit-content;
+        margin: 0;
+        padding-top: 20%;
+    }
+    .titulo{
+        width: 90vw;
+        height: auto;
+        padding: 0%;
+        padding-bottom: 0;
+    }
+    .divMuñecaUno{
+        height: fit-content;
+        display: flex;
+        justify-content: right;
+        width: 100vw;
+    }
+    .muñecaUno{
+        width: 50vw;
+        height: auto;
+        position: relative;
+        right: 0;
+        margin-bottom: 5vh;
+    }
+    .divLogos{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100vw;
+        height: fit-content;
+    }
+    .logos{
+        position: relative;
+        width: 90vw;
+        height: auto;
+        left: auto;
+    }
+    .divBarraCelesteInferior{
+        width: 100vw;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+    .barraCelesteInferior{
+        width: 100vw;
+        height: 5vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+
+    #paginaDos{
+        background-image: url(../assets/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 70vh;
+    }
+    .divPaginaDosUno{
+        height: 30vh;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .textoUno{
+        margin-top: 5%;
+        width: 80vw;
+        height: auto;
+    }
+    .divPaginaDosDos{
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .textoDos{
+        width: 70vw;
+        height: auto;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-right: 0;
+    }
+    .muñecoDos{
+        width: 25vw;
+        height: auto;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-left: 0%;
+    }
+    #equipo{
+        width: 100%;
+        height: 100vh;
+        padding: 3rem;
+    }
+    #imgCarrusel{
+        width: 80vw;
+        height: 80vh;
+    }
+
+
+
+
+    #equipo{
+        background-image: url(../assets/fondoTresCel.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: fit-content;
+        padding: 0%;
+    }
+    #divTituloTres{
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        height: fit-content;
+    }
+    .tituloTres{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 60vw;
+        height: auto;
+    }
+    #divEquipo{
+        height: fit-content;
+    }
+    #divEquipoUno{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #divEquipoDos{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #divEquipoTres{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+    #divEquipoCuatro{
+        width: 10vw;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    .imgEquipo{
+        width: 30vw;
+        height: auto;
+    }
+    .imgEquipoCuatro{
+        margin-left: 10vw;
+        padding-left: 0;
+        width: 30vw;
+        height: auto;
+    }
+    .manosTres{
+        position: absolute;
+        right: 0;
+        width: 30vw;
+    }
+    #divManosTres{
+        height: 20vh;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+
+
+
+
+
+    #paginaCuatro{
+        background-image: url(../assets/fondoCuatro.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: fit-content;
+    }
+    #divTituloCuatro{
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .tituloCuatro{
+        width: 90vw;
+        height: auto;
+    }
+    #divPaginaCuatro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+    }
+    #divComentarioUno{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        left: auto;
+        padding-top: 1%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .flechaCuatro{
+        transform: rotate(90deg);
+        height: 5rem;
+    }
+    #divComentarioDos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        right: auto;
+        padding-top: 1%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #divComentarioTres{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        left: auto;
+        padding-top: 1%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #divComentarioCuatro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        right: auto;
+        padding-top: 1%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .imgComentario{
+       width: 80vw;
+       height: auto;
+    }
+    #divPaginaCuatroDos{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #divTarjetaComentarioUno{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        margin-left: 1%;
+        width: 25vw;
+        margin-right: 4%;
+    }
+    #divTarjetaComentarioDos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 25vw;
+    }
+    #divTarjetaComentarioTres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 25vw;
+    }
+    .imgTarjeta{
+        height: auto;
+        width: 20vw;
+    }
+    #divImgMuñecaCuatro{
+        display: flex;
+        align-self: flex-end;
+        margin-left: auto;
+        margin-right: 1%;
+    }
+    #imgMuñecaCuatro{
+        width: 20vw;
+        height: auto;
+        display: flex;
+        align-self: flex-end;
+    }
+    
+
+
+
+
+
+    #sabiasQue{
+        background-image: url(../assets/fondoTresCel.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: fit-content;
+    }
+    #divTituloCinco{
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        margin-bottom: 5%;
+        height: fit-content;
+    }
+    .tituloCinco{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 60vw;
+        height: auto;
+
+    }
+    .divTarjeta{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding-bottom: 10vh;
+    }
+    .tarjeta{
+        padding: 2%;
+        width: 30vw;
+        height: auto;
+    }
+
+
+
+
+    #graficas{
+        background-image: url(../assets/fondoSeis.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: fit-content;
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divCarrusel{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgCarruselDosGraficas{
+        width: 80vw;
+        height: auto;
+        margin-top: 3%;
+        display: block;
+    }
+    .imgCarruselDosIngresos{
+        width: 80vw;
+        height: auto;
+        margin-top: 3%;
+        display: block;
+    }
+    .imgCarruselDosOcupaciones{
+        width: 80vw;
+        height: auto;
+        margin-top: 3%;
+        display: block;
+    }
+    #buttonCarousel{
+        color: black;
+    }
+    .imgCarruselUnoGraficas {
+        display: none;
+      }
+      .imgCarruselUnoIngresos {
+        display: none;
+      }
+      .imgCarruselUnoOcupaciones {
+        display: none;
+      }
+    .titulito{
+        width: 70vw;
+        display: block;
+        height: auto;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+      
+      .modal-content {
+        position: relative;
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        width: 95vw;
+        height: fit-content;
+        overflow: hidden;
+        margin: auto;
+      }
+      
+      .modal-content img {
+        width: 100%;
+        height: auto;
+        object-fit: contain; 
+      }
+      
+      .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+      }
+
+
+
+    #estudiarRinde{
+        background-image: url(../assets/fondoSiete.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: fit-content;
+    }
+    #divTituloSiete{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 100vw;
+        margin: 0;
+        padding: 0%;
+    }
+    .tituloSiete{
+        width: 70vw;
+        height: auto;
+    }
+    .divERTarjetas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .eRTarjetaUno{
+        width: 30vw;
+        height: auto;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding: 1%;
+    }
+    .eRTarjetaDos{
+        width: 30vw;
+        height: auto;
+        margin-bottom: 0%;
+        padding: 1%;
+    }
+    .eRTarjetaTres{
+        width: 30vw;
+        height: auto;
+        margin-bottom: 0%;
+        padding: 1%;
+    }
+    
+
+
+    #paginaOcho{
+        background-image: url(../assets/contactoFondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: fit-content;
+    }
+    .divPaginaOcho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: fit-content;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .divLogosDos{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    .logosDos{
+        position: relative;
+        width: 90vw;
+        height: auto;
+        right: auto;
+        margin: 0%;
+        margin-bottom: 1%;
+    }
+    .imgPaginaOcho{
+        width: 80vw;
+    }
+    .imgPaginaOchoTres{
+        width: 80vw;
+    }
+    .imgPaginaOchoDos{
+        transform: rotate(45deg);
+        width: 20vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .divContacto{
+        position: relative;
+        display: inline-block;
+    }
+    .divTextos{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 15px; 
+    }
     .textoContacto{
         color: white;
         text-decoration: none;
         font-size: medium;
+        font-weight: bold;
+    }
+    .textoContacto:hover{
+        text-decoration: underline;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .textoContacto{
+        color: white;
+        text-decoration: none;
+        font-size: small;
         font-weight: bold;
     }
 }
