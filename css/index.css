@@ -485,11 +485,37 @@ header{
 .imgPaginaOcho{
     width: 42vw;
 }
+.imgPaginaOchoTres{
+    display: block;
+    width: 42vw;
+}
 .imgPaginaOchoDos{
     width: 10vw;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 1%;
+}
+.divContacto{
+    position: relative;
+    display: inline-block;
+}
+.divTextos{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    padding: 15px; 
+}
+.textoContacto{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+.textoContacto:hover{
+    text-decoration: underline;
 }
 .logosDos{
     margin-right: 2%;
@@ -1091,10 +1117,43 @@ header{
     .imgPaginaOcho{
         width: 80vw;
     }
+    .imgPaginaOchoTres{
+        width: 80vw;
+    }
     .imgPaginaOchoDos{
         transform: rotate(45deg);
         width: 20vw;
         margin-top: 5%;
         margin-bottom: 5%;
+    }
+    .divContacto{
+        position: relative;
+        display: inline-block;
+    }
+    .divTextos{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 15px; 
+    }
+    .textoContacto{
+        color: white;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+    }
+    .textoContacto:hover{
+        text-decoration: underline;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .textoContacto{
+        color: white;
+        text-decoration: none;
+        font-size: medium;
+        font-weight: bold;
     }
 }
