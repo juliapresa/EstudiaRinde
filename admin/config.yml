@@ -10,7 +10,8 @@ collections:
     label: "Noticias"         # Nombre visible en el CMS
     folder: "content/noticias" # Carpeta donde se guardarán las tarjetas
     create: true              # Permitir al usuario crear nuevas tarjetas
-    fields:                   # Campos de cada tarjeta
+    fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Descripción", name: "description", widget: "text" }
       - { label: "Imagen", name: "image", widget: "image" }
+      - { label: "Enlace", name: "link", widget: "string" }
