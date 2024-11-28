@@ -73,9 +73,9 @@ header{
     height: auto;
 }
 .hidden {
-    opacity: 0; /* Oculta los elementos */
-    transform: translateY(0); /* Previene movimientos inesperados */
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Para suavizar el cambio */
+    opacity: 0; 
+    transform: translateY(0);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 .divMuñecaUno{
