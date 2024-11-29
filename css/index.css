@@ -116,7 +116,7 @@ header{
     position: relative;
     width: 100%;
     height: 100vh;
-    scroll-margin-top: 10vh;
+    scroll-margin-top: 5vh;
 }
 .divPaginaDosUno{
     height: 40vh;
@@ -602,7 +602,7 @@ header{
         flex-direction: column;
         position: relative;
         width: 100%;
-        height: 70vh;
+        height: 90vh;
     }
     .divPaginaDosUno{
         height: 30vh;
@@ -611,7 +611,7 @@ header{
     }
     .textoUno{
         margin-top: 5%;
-        width: 80vw;
+        width: 95vw;
         height: auto;
     }
     .divPaginaDosDos{
@@ -637,17 +637,10 @@ header{
         left: 0;
         margin-left: 0%;
     }
-    #equipo{
-        width: 100%;
-        height: 100vh;
-        padding: 3rem;
-    }
     #imgCarrusel{
         width: 80vw;
         height: 80vh;
     }
-
-
 
 
     #equipo{
@@ -811,7 +804,7 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: fit-content;
+        height: 90vh;
     }
     #divTituloCinco{
         display: flex;
@@ -833,7 +826,8 @@ header{
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding-bottom: 10vh;
+        height: fit-content;
+        padding-bottom: 15vh;
     }
     .tarjeta{
         padding: 2%;
@@ -1175,7 +1169,7 @@ header{
         flex-direction: column;
         position: relative;
         width: 100%;
-        height: 70vh;
+        height: 90vh;
     }
     .divPaginaDosUno{
         height: 30vh;
@@ -1183,8 +1177,8 @@ header{
         justify-content: flex-start;
     }
     .textoUno{
-        margin-top: 5%;
-        width: 80vw;
+        margin-top: 15%;
+        width: 95vw;
         height: auto;
     }
     .divPaginaDosDos{
@@ -1209,11 +1203,6 @@ header{
         bottom: 0;
         left: 0;
         margin-left: 0%;
-    }
-    #equipo{
-        width: 100%;
-        height: 100vh;
-        padding: 3rem;
     }
     #imgCarrusel{
         width: 80vw;
@@ -1390,12 +1379,13 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: fit-content;
+        height: 90vh;
     }
     #divTituloCinco{
         display: flex;
         justify-content: center;
         margin-left: 0%;
+        padding: 10%;
         margin-bottom: 5%;
         height: fit-content;
     }
@@ -1404,7 +1394,6 @@ header{
         margin-bottom: 5vh;
         width: 60vw;
         height: auto;
-
     }
     .divTarjeta{
         display: flex;
@@ -1412,15 +1401,13 @@ header{
         justify-content: center;
         align-items: center;
         height: fit-content;
-        padding-bottom: 10vh;
+        padding-bottom: 15vh;
     }
     .tarjeta{
         padding: 2%;
         width: 30vw;
         height: auto;
     }
-
-
 
 
     #graficas{
