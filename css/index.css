@@ -116,6 +116,7 @@ header{
     position: relative;
     width: 100%;
     height: 100vh;
+    scroll-margin-top: 10vh;
 }
 .divPaginaDosUno{
     height: 40vh;
@@ -231,7 +232,7 @@ header{
 #divPaginaCuatro{
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
 }
 #divComentarioUno{
     position: absolute;
@@ -254,7 +255,7 @@ header{
 #divComentarioCuatro{
     position: absolute;
     right: 0;
-    padding-top: 60vh;
+    padding-top: 63vh;
     margin-right: 5%;
 }
 .imgComentario{
@@ -271,6 +272,7 @@ header{
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    scroll-margin-top: 10vh;
 }
 #divTituloCinco{
     margin-left: 5%;
@@ -300,6 +302,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: 5vh;
 }
 .divCarrusel{
     width: 100vw;
@@ -391,6 +394,7 @@ header{
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    scroll-margin-top: 5vh;
 }
 #divTituloSiete{
     display: flex;
