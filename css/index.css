@@ -1118,12 +1118,14 @@ header{
         height: auto;
         padding: 0%;
         padding-bottom: 0;
+        margin-top: 10vh;
     }
     .divMuñecaUno{
         height: fit-content;
         display: flex;
         justify-content: right;
         width: 100vw;
+        margin-top: 10vh;
     }
     .muñecaUno{
         width: 50vw;
@@ -1217,7 +1219,7 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: fit-content;
+        height: 90vh;
         padding: 0%;
     }
     #divTituloTres{
@@ -1225,6 +1227,7 @@ header{
         justify-content: center;
         margin-left: 0%;
         height: fit-content;
+        margin-bottom: 5vh;
     }
     .tituloTres{
         margin-top: 5vh;
@@ -1253,7 +1256,7 @@ header{
         flex-direction: row;
         justify-content: space-around;
         padding-top: 5vh;
-        padding-bottom: 10vh;
+        padding-bottom: 16vh;
     }
     #divEquipoCuatro{
         width: 10vw;
