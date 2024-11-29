@@ -302,7 +302,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-margin-top: 5vh;
 }
 .divCarrusel{
     width: 100vw;
@@ -855,6 +854,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        scroll-margin-top: 5vh;
     }
     .divCarrusel{
         width: 100vw;
