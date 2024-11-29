@@ -27,6 +27,9 @@ header{
     background-color: white;
     border-radius: 1rem;
     border-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 0.3rem;
 }
 .navLink:hover{
     text-decoration: underline;
@@ -41,9 +44,13 @@ header{
 .ancla{
     text-decoration: none;
     color: black;
-    padding: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 12%;
+    padding-bottom: 12%;
     background-color: white;
     border-radius: 1rem;
+    margin-left: 0.3rem;
 }
 .icono{
     font-size: 25px;
