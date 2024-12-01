@@ -694,7 +694,7 @@ header{
         padding-bottom: 10vh;
     }
     #divEquipoCuatro{
-        width: 10vw;
+        width: fit-content;
         display: flex;
         flex-direction: row;
         align-items: end;
@@ -704,7 +704,7 @@ header{
         height: auto;
     }
     .imgEquipoCuatro{
-        margin-left: 10vw;
+        margin-left: 0;
         padding-left: 0;
         width: 30vw;
         height: auto;
@@ -1232,9 +1232,8 @@ header{
     #divTituloTres{
         display: flex;
         justify-content: center;
+        height: 20vh;
         margin-left: 0%;
-        height: fit-content;
-        margin-bottom: 5vh;
     }
     .tituloTres{
         margin-top: 5vh;
@@ -1243,54 +1242,50 @@ header{
         height: auto;
     }
     #divEquipo{
-        height: fit-content;
+        height: 70vh;
     }
     #divEquipoUno{
-        height: fit-content;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        height: 20vh;
+        margin-top: 5vh;
     }
     #divEquipoDos{
-        height: fit-content;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end; 
+        height: 50vh;
     }
     #divEquipoTres{
-        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding-top: 5vh;
-        padding-bottom: 16vh;
+        width: 100vw;
+        padding-top: 0;
+        padding-bottom: 5vh;
     }
     #divEquipoCuatro{
-        width: 10vw;
         display: flex;
-        flex-direction: row;
-        align-items: end;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end; 
+        width: 100vw;
+        height: 15vh;
     }
     .imgEquipo{
         width: 30vw;
         height: auto;
     }
     .imgEquipoCuatro{
-        margin-left: 10vw;
-        padding-left: 0;
         width: 30vw;
         height: auto;
+        margin-left: 0;
+        padding-left: 0;
     }
     .manosTres{
-        position: absolute;
-        right: 0;
         width: 30vw;
-    }
-    #divManosTres{
-        height: 20vh;
-        display: flex;
-        align-items: end;
-        justify-content: end;
     }
 
 
