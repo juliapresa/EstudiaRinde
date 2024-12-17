@@ -1,14 +1,3 @@
-.animada {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease;
-}
-
-.animada.animate__animated {
-    opacity: 1;
-    visibility: visible;
-}
-
 body{
     margin: 0%;
     padding: 0%;
@@ -59,6 +48,7 @@ header{
     text-decoration: underline;
 }
 
+
 #inicio{
     background-image: url(../assets/fondo.jpg);
     background-repeat: no-repeat;
@@ -79,23 +69,18 @@ header{
     width: 50vw;
     height: auto;
 }
-.hidden {
-    opacity: 0; 
-    transform: translateY(0);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
 
-.divMuñecaUno{
+.divMuñecaInicio{
     width: 30%;
 }
-.muñecaUno{
+.muñecaInicio{
     width: auto;
     height: 70vh;
     position: absolute;
     right: 0;
     bottom: 0;
 }
-.logos{
+.logosUdelar{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -103,6 +88,9 @@ header{
     margin-left: 1%;
     width: 50vw;
 }
+
+
+
 .divBarraCelesteInferior{
     width: 100vw;
     margin: 0%;
@@ -114,7 +102,9 @@ header{
     height: auto;
 }
 
-#paginaDos{
+
+
+#quienesSomos{
     background-image: url(../assets/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,22 +115,22 @@ header{
     height: 100vh;
     scroll-margin-top: 5vh;
 }
-.divPaginaDosUno{
+.divQuienesSomosUno{
     height: 40vh;
     display: flex;
 }
-.textoUno{
+.textoQuienesSomosUno{
     margin-top: 2%;
     width: auto;
     height: 30vh;
 }
-.divPaginaDosDos{
+.divQuienesSomosDos{
     height: 70vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.textoDos{
+.textoQuienesSomosDos{
     width: auto;
     height: 50vh;
     position: absolute;
@@ -148,7 +138,7 @@ header{
     right: 0;
     margin-right: 7%;
 }
-.muñecoDos{
+.muñecoQuienesSomos{
     width: auto;
     height:60vh;
     position: absolute;
@@ -166,11 +156,11 @@ header{
     width: 100vw;
     height: 100vh;
 }
-#divTituloTres{
+#divTituloEquipo{
     margin-left: 5%;
     height: 25vh;
 }
-.tituloTres{
+.tituloEquipo{
     margin-top: 5%;
     width: 20vw;
 }
@@ -180,25 +170,25 @@ header{
     justify-content: center;
     height: 75vh;
 }
-#divEquipoUno{
+#divEquipoIntegrantesUno{
     height: 35vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-#divEquipoDos{
+#divEquipoIntegrantesDos{
     height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-#divEquipoTres{
+#divEquipoIntegrantesTres{
     width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-#divEquipoCuatro{
+#divManosEquipo{
     width: 10vw;
     display: flex;
     flex-direction: row;
@@ -211,14 +201,14 @@ header{
     padding-left: 10%;
     height: 30vh;
 }
-.manosTres{
+.imgManosEquipo{
     position: absolute;
     right: 0;
     width: 30vh;
 }
 
 
-#paginaCuatro{
+#preguntas{
     background-image: url(../assets/fondoCuatro.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,48 +217,48 @@ header{
     display: flex;
     flex-direction: column;
 }
-#divTituloCuatro{
+#divTituloPreguntas{
     margin-top: 1%;
     display: flex;
     justify-content: center;
 }
-.tituloCuatro{
+.tituloPreguntas{
     width: 60vw;
     height: 10vh;
 }
-#divPaginaCuatro{
+#divPreguntas{
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
-#divComentarioUno{
+#divPreguntaUno{
     position: absolute;
     left: 0;
     padding-top: 15vh;
     margin-left: 5%;
 }
-#divComentarioDos{
+#divPreguntaDos{
     position: absolute;
     right: 0;
     padding-top: 30vh;
     margin-right: 5%;
 }
-#divComentarioTres{
+#divPreguntaTres{
     position: absolute;
     left: 0;
     padding-top: 45vh;
     margin-left: 5%;
 }
-#divComentarioCuatro{
+#divPreguntaCuatro{
     position: absolute;
     right: 0;
     padding-top: 63vh;
     margin-right: 5%;
 }
-.imgComentario{
+.imgPregunta{
    height: 25vh;
 }
-.imgComentarioCuatro{
+.imgPreguntaCuatro{
     height: 30vh;
  }
 
@@ -281,20 +271,20 @@ header{
     height: 100vh;
     scroll-margin-top: 10vh;
 }
-#divTituloCinco{
+#divTituloSabiasQue{
     margin-left: 5%;
     height: 20vh;
 }
-.tituloCinco{
+.tituloSabiasQue{
     margin-top: 2%;
     width: 25vw;
 }
-.divTarjeta{
+.divTarjetaSabiasQue{
     display: flex;
     justify-content: space-around;
     height: 40vh;
 }
-.tarjeta{
+.tarjetaSabiasQue{
     width: auto;
     height: 30vh;
 }
@@ -316,19 +306,19 @@ header{
     display: flex;
     justify-content: center;
 }
-.imgCarruselUnoGraficas{
+.imgCarruselPcDesempleo{
     width: 70vw;
     height: auto;
     margin-top: 4%;
     display: block;
 }
-.imgCarruselUnoIngresos{
+.imgCarruselPcIngresos{
     width: 70vw;
     height: auto;
     margin-top: 4%;
     display: block;
 }
-.imgCarruselUnoOcupaciones{
+.imgCarruselPcOcupaciones{
     width: 70vw;
     height: auto;
     margin-top: 4%;
@@ -337,19 +327,19 @@ header{
 #buttonCarousel{
     color: black;
 }
-.imgCarruselDosGraficas {
+.imgCarruselMobileDesempleo {
     display: none;
   }
 
-.imgCarruselDosIngresos {
+.imgCarruselMobileIngresos {
     display: none;
 }
 
-.imgCarruselDosOcupaciones {
+.imgCarruselMobileOcupaciones {
     display: none;
 }
 
-.titulito{
+.tituloGraficaChico{
     display: none;
 }
 .modal {
@@ -402,7 +392,7 @@ header{
     height: 100vh;
     scroll-margin-top: 5vh;
 }
-#divTituloSiete{
+#divTituloER{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,7 +401,7 @@ header{
     padding: 3%;
     height: 33vh;
 }
-.tituloSiete{
+.tituloER{
     height: 30vh;
 }
 .divERTarjetas{
@@ -467,7 +457,7 @@ header{
     position: relative;
     display: inline-block;
 }
-.divTextos{
+.divTextosContacto{
     position: absolute;
     top: 50%; 
     left: 50%;
@@ -485,7 +475,7 @@ header{
 .textoContacto:hover{
     text-decoration: underline;
 }
-.logosDos{
+.logosFooterUdelar{
     margin-right: 2%;
     position: absolute;
     right: 0;
@@ -559,20 +549,20 @@ header{
         padding: 0%;
         padding-bottom: 0;
     }
-    .divMuñecaUno{
+    .divMuñecaInicio{
         height: fit-content;
         display: flex;
         justify-content: right;
         width: 100vw;
     }
-    .muñecaUno{
+    .muñecaInicio{
         width: 50vw;
         height: auto;
         position: relative;
         right: 0;
         margin-bottom: 5vh;
     }
-    .divLogos{
+    .divLogosUdelar{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -580,7 +570,7 @@ header{
         width: 100vw;
         height: fit-content;
     }
-    .logos{
+    .logosUdelar{
         position: relative;
         width: 90vw;
         height: auto;
@@ -601,7 +591,7 @@ header{
     
 
 
-    #paginaDos{
+    #quienesSomos{
         background-image: url(../assets/fondo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -611,24 +601,24 @@ header{
         width: 100%;
         height: 90vh;
     }
-    .divPaginaDosUno{
+    .divQuienesSomosUno{
         height: 30vh;
         display: flex;
         justify-content: flex-start;
     }
-    .textoUno{
+    .textoQuienesSomosUno{
         margin-top: 5%;
         width: 95vw;
         height: auto;
     }
-    .divPaginaDosDos{
+    .divQuienesSomosDos{
         height: 60vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-end;
     }
-    .textoDos{
+    .textoQuienesSomosDos{
         width: 70vw;
         height: auto;
         position: relative;
@@ -636,7 +626,7 @@ header{
         right: 0;
         margin-right: 0;
     }
-    .muñecoDos{
+    .muñecoQuienesSomos{
         width: 25vw;
         height: auto;
         position: relative;
@@ -658,13 +648,13 @@ header{
         height: fit-content;
         padding: 0%;
     }
-    #divTituloTres{
+    #divTituloEquipo{
         display: flex;
         justify-content: center;
         margin-left: 0%;
         height: fit-content;
     }
-    .tituloTres{
+    .tituloEquipo{
         margin-top: 5vh;
         margin-bottom: 5vh;
         width: 60vw;
@@ -673,19 +663,19 @@ header{
     #divEquipo{
         height: fit-content;
     }
-    #divEquipoUno{
+    #divEquipoIntegrantesUno{
         height: fit-content;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    #divEquipoDos{
+    #divEquipoIntegrantesDos{
         height: fit-content;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    #divEquipoTres{
+    #divEquipoIntegrantesTres{
         width: 100vw;
         display: flex;
         flex-direction: row;
@@ -693,7 +683,7 @@ header{
         padding-top: 5vh;
         padding-bottom: 10vh;
     }
-    #divEquipoCuatro{
+    #divManosEquipo{
         width: fit-content;
         display: flex;
         flex-direction: row;
@@ -709,12 +699,12 @@ header{
         width: 30vw;
         height: auto;
     }
-    .manosTres{
+    .imgManosEquipo{
         position: absolute;
         right: 0;
         width: 30vw;
     }
-    #divManosTres{
+    #divManosEquipo{
         height: 20vh;
         display: flex;
         align-items: end;
@@ -723,7 +713,7 @@ header{
 
 
 
-    #paginaCuatro{
+    #preguntas{
         background-image: url(../assets/fondoCuatro.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -732,24 +722,24 @@ header{
         width: 100vw;
         height: fit-content;
     }
-    #divTituloCuatro{
+    #divTituloPreguntas{
         display: flex;
         justify-content: center;
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
-    .tituloCuatro{
+    .tituloPreguntas{
         width: 90vw;
         height: auto;
     }
-    #divPaginaCuatro{
+    #divPreguntas{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: fit-content;
     }
-    #divComentarioUno{
+    #divPreguntaUno{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -761,7 +751,7 @@ header{
         margin-left: 0;
         margin-right: 0;
     }
-    #divComentarioDos{
+    #divPreguntaDos{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -773,7 +763,7 @@ header{
         margin-left: 0;
         margin-right: 0;
     }
-    #divComentarioTres{
+    #divPreguntaTres{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -785,7 +775,7 @@ header{
         margin-left: 0;
         margin-right: 0;
     }
-    #divComentarioCuatro{
+    #divPreguntaCuatro{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -797,11 +787,11 @@ header{
         margin-left: 0;
         margin-right: 0;
     }
-    .imgComentario{
+    .imgPregunta{
        width: 80vw;
        height: auto;
     }
-    .imgComentarioCuatro{
+    .imgPreguntaCuatro{
         width: 70vw;
         height: auto;
      }
@@ -813,21 +803,21 @@ header{
         width: 100vw;
         height: 90vh;
     }
-    #divTituloCinco{
+    #divTituloSabiasQue{
         display: flex;
         justify-content: center;
         margin-left: 0%;
         margin-bottom: 5%;
         height: fit-content;
     }
-    .tituloCinco{
+    .tituloSabiasQue{
         margin-top: 5vh;
         margin-bottom: 5vh;
         width: 60vw;
         height: auto;
 
     }
-    .divTarjeta{
+    .divTarjetaSabiasQue{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -836,7 +826,7 @@ header{
         height: fit-content;
         padding-bottom: 15vh;
     }
-    .tarjeta{
+    .tarjetaSabiasQue{
         padding: 2%;
         width: 30vw;
         height: auto;
@@ -865,19 +855,19 @@ header{
         justify-content: center;
         align-items: center;
     }
-    .imgCarruselDosGraficas{
+    .imgCarruselMobileDesempleo{
         width: 80vw;
         height: auto;
         margin-top: 3%;
         display: block;
     }
-    .imgCarruselDosIngresos{
+    .imgCarruselMobileIngresos{
         width: 80vw;
         height: auto;
         margin-top: 3%;
         display: block;
     }
-    .imgCarruselDosOcupaciones{
+    .imgCarruselMobileOcupaciones{
         width: 80vw;
         height: auto;
         margin-top: 3%;
@@ -886,16 +876,16 @@ header{
     #buttonCarousel{
         color: black;
     }
-    .imgCarruselUnoGraficas {
+    .imgCarruselPcDesempleo {
         display: none;
       }
-      .imgCarruselUnoIngresos {
+      .imgCarruselPcIngresos {
         display: none;
       }
-      .imgCarruselUnoOcupaciones {
+      .imgCarruselPcOcupaciones {
         display: none;
       }
-    .titulito{
+    .tituloGraficaChico{
         width: 70vw;
         display: block;
         height: auto;
@@ -948,7 +938,7 @@ header{
         width: 100vw;
         height: fit-content;
     }
-    #divTituloSiete{
+    #divTituloER{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -958,7 +948,7 @@ header{
         margin: 0;
         padding: 0%;
     }
-    .tituloSiete{
+    .tituloER{
         width: 70vw;
         height: auto;
     }
@@ -1010,12 +1000,12 @@ header{
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
-    .divLogosDos{
+    .divLogosFooterUdelar{
         display: flex;
         justify-content: center;
         width: 100vw;
     }
-    .logosDos{
+    .logosFooterUdelar{
         position: relative;
         width: 90vw;
         height: auto;
@@ -1039,7 +1029,7 @@ header{
         position: relative;
         display: inline-block;
     }
-    .divTextos{
+    .divTextosContacto{
         position: absolute;
         top: 50%; 
         left: 50%;
@@ -1127,21 +1117,21 @@ header{
         padding-bottom: 0;
         margin-top: 10vh;
     }
-    .divMuñecaUno{
+    .divMuñecaInicio{
         height: fit-content;
         display: flex;
         justify-content: right;
         width: 100vw;
         margin-top: 10vh;
     }
-    .muñecaUno{
+    .muñecaInicio{
         width: 50vw;
         height: auto;
         position: relative;
         right: 0;
         margin-bottom: 5vh;
     }
-    .divLogos{
+    .divLogosUdelar{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -1149,7 +1139,7 @@ header{
         width: 100vw;
         height: fit-content;
     }
-    .logos{
+    .logosUdelar{
         position: relative;
         width: 90vw;
         height: auto;
@@ -1170,7 +1160,7 @@ header{
     
 
 
-    #paginaDos{
+    #quienesSomos{
         background-image: url(../assets/fondo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -1180,24 +1170,24 @@ header{
         width: 100%;
         height: 90vh;
     }
-    .divPaginaDosUno{
+    .divQuienesSomosUno{
         height: 30vh;
         display: flex;
         justify-content: flex-start;
     }
-    .textoUno{
+    .textoQuienesSomosUno{
         margin-top: 15%;
         width: 95vw;
         height: auto;
     }
-    .divPaginaDosDos{
+    .divQuienesSomosDos{
         height: 60vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-end;
     }
-    .textoDos{
+    .textoQuienesSomosDos{
         width: 70vw;
         height: auto;
         position: relative;
@@ -1205,7 +1195,7 @@ header{
         right: 0;
         margin-right: 0;
     }
-    .muñecoDos{
+    .muñecoQuienesSomos{
         width: 25vw;
         height: auto;
         position: relative;
@@ -1229,13 +1219,13 @@ header{
         height: 90vh;
         padding: 0%;
     }
-    #divTituloTres{
+    #divTituloEquipo{
         display: flex;
         justify-content: center;
         height: 20vh;
         margin-left: 0%;
     }
-    .tituloTres{
+    .tituloEquipo{
         margin-top: 5vh;
         margin-bottom: 5vh;
         width: 60vw;
@@ -1244,21 +1234,21 @@ header{
     #divEquipo{
         height: 70vh;
     }
-    #divEquipoUno{
+    #divEquipoIntegrantesUno{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         height: 20vh;
         margin-top: 5vh;
     }
-    #divEquipoDos{
+    #divEquipoIntegrantesDos{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end; 
         height: 50vh;
     }
-    #divEquipoTres{
+    #divEquipoIntegrantesTres{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -1266,7 +1256,7 @@ header{
         padding-top: 0;
         padding-bottom: 5vh;
     }
-    #divEquipoCuatro{
+    #divManosEquipo{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -1284,7 +1274,7 @@ header{
         margin-left: 0;
         padding-left: 0;
     }
-    .manosTres{
+    .imgManosEquipo{
         width: 30vw;
     }
 
@@ -1292,7 +1282,7 @@ header{
 
 
 
-    #paginaCuatro{
+    #preguntas{
         background-image: url(../assets/fondoCuatro.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -1301,24 +1291,24 @@ header{
         width: 100vw;
         height: fit-content;
     }
-    #divTituloCuatro{
+    #divTituloPreguntas{
         display: flex;
         justify-content: center;
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
-    .tituloCuatro{
+    .tituloPreguntas{
         width: 90vw;
         height: auto;
     }
-    #divPaginaCuatro{
+    #divPreguntas{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: fit-content;
     }
-    #divComentarioUno{
+    #divPreguntaUno{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1334,7 +1324,7 @@ header{
         transform: rotate(90deg);
         height: 5rem;
     }
-    #divComentarioDos{
+    #divPreguntaDos{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1346,7 +1336,7 @@ header{
         margin-left: 0;
         margin-right: 0;
     }
-    #divComentarioTres{
+    #divPreguntaTres{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1358,7 +1348,7 @@ header{
         margin-left: 0;
         margin-right: 0;
     }
-    #divComentarioCuatro{
+    #divPreguntaCuatro{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1370,11 +1360,11 @@ header{
         margin-left: 0;
         margin-right: 0;
     }
-    .imgComentario{
+    .imgPregunta{
        width: 90vw;
        height: auto;
     }
-    .imgComentarioCuatro{
+    .imgPreguntaCuatro{
         width: 90vw;
         height: auto;
      }
@@ -1386,7 +1376,7 @@ header{
         width: 100vw;
         height: 90vh;
     }
-    #divTituloCinco{
+    #divTituloSabiasQue{
         display: flex;
         justify-content: center;
         margin-left: 0%;
@@ -1394,13 +1384,13 @@ header{
         margin-bottom: 5%;
         height: fit-content;
     }
-    .tituloCinco{
+    .tituloSabiasQue{
         margin-top: 5vh;
         margin-bottom: 5vh;
         width: 60vw;
         height: auto;
     }
-    .divTarjeta{
+    .divTarjetaSabiasQue{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1408,7 +1398,7 @@ header{
         height: fit-content;
         padding-bottom: 15vh;
     }
-    .tarjeta{
+    .tarjetaSabiasQue{
         padding: 2%;
         width: 30vw;
         height: auto;
@@ -1435,19 +1425,19 @@ header{
         justify-content: center;
         align-items: center;
     }
-    .imgCarruselDosGraficas{
+    .imgCarruselMobileDesempleo{
         width: 80vw;
         height: auto;
         margin-top: 3%;
         display: block;
     }
-    .imgCarruselDosIngresos{
+    .imgCarruselMobileIngresos{
         width: 80vw;
         height: auto;
         margin-top: 3%;
         display: block;
     }
-    .imgCarruselDosOcupaciones{
+    .imgCarruselMobileOcupaciones{
         width: 80vw;
         height: auto;
         margin-top: 3%;
@@ -1456,16 +1446,16 @@ header{
     #buttonCarousel{
         color: black;
     }
-    .imgCarruselUnoGraficas {
+    .imgCarruselPcDesempleo {
         display: none;
       }
-      .imgCarruselUnoIngresos {
+      .imgCarruselPcIngresos {
         display: none;
       }
-      .imgCarruselUnoOcupaciones {
+      .imgCarruselPcOcupaciones {
         display: none;
       }
-    .titulito{
+    .tituloGraficaChico{
         width: 70vw;
         display: block;
         height: auto;
@@ -1518,7 +1508,7 @@ header{
         width: 100vw;
         height: fit-content;
     }
-    #divTituloSiete{
+    #divTituloER{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1528,7 +1518,7 @@ header{
         margin: 0;
         padding: 0%;
     }
-    .tituloSiete{
+    .tituloER{
         width: 70vw;
         height: auto;
     }
@@ -1580,12 +1570,12 @@ header{
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
-    .divLogosDos{
+    .divLogosFooterUdelar{
         display: flex;
         justify-content: center;
         width: 100vw;
     }
-    .logosDos{
+    .logosFooterUdelar{
         position: relative;
         width: 90vw;
         height: auto;
@@ -1609,7 +1599,7 @@ header{
         position: relative;
         display: inline-block;
     }
-    .divTextos{
+    .divTextosContacto{
         position: absolute;
         top: 50%; 
         left: 50%;
