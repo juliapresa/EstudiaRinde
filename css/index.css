@@ -749,14 +749,14 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 12%;
+        margin-left: 0%;
     }
     .imgEquipo{
         height: 20vh;
         margin-bottom: 3%;
     }
     .nombreEquipo{
-        width: 20vw;
+        width: 30vw;
         height: fit-content;
     }
     #divManosEquipo{
@@ -937,7 +937,7 @@ header{
     }
     .tarjetasGraficas{
         width: 30vw;
-        height: fit-content;
+        height: auto;
         margin-left: 1%;
         margin-right: 1%;
     }
@@ -1344,11 +1344,16 @@ header{
         width: 30vw;
         height: auto;
     }
-    .imgEquipoCuatro{
+    .nombreEquipo{
         width: 30vw;
-        height: auto;
-        margin-left: 0;
-        padding-left: 0;
+        height: fit-content;
+    }
+    .equipoCuatro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
     }
     .imgManosEquipo{
         width: 30vw;
