@@ -958,6 +958,10 @@ header{
         height: fit-content;
         margin-bottom: 5%;
     }
+    .parrafoGraficas{
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 3%;
+    }
     .comentarioGraficas{
         width: 40vw;
         height: fit-content;
@@ -1535,16 +1539,20 @@ header{
     }
     .grafica{
         width: 80vw;
-        height: fit-content;
-        margin-bottom: 3%;
+        height: auto;
+        margin-bottom: 5%;
     }
     .comentarioDesempleo{
-        width: 60vw;
+        width: 70vw;
         height: fit-content;
         margin-bottom: 5%;
     }
+    .parrafoGraficas{
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 5%;
+    }
     .comentarioGraficas{
-        width: 40vw;
+        width: 70vw;
         height: fit-content;
         margin-bottom: 3%;
     }
