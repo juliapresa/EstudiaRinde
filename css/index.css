@@ -1,3 +1,27 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 body{
     margin: 0%;
     padding: 0%;
@@ -194,12 +218,26 @@ header{
     flex-direction: row;
     align-items: end;
 }
-.imgEquipo{
-    height: 30vh;
+.equipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.imgEquipoCuatro{
-    padding-left: 10%;
-    height: 30vh;
+.equipoCuatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%;
+}
+.imgEquipo{
+    height: 27vh;
+    margin-bottom: 3%;
+}
+.nombreEquipo{
+    width: 12vw;
+    height: fit-content;
 }
 .imgManosEquipo{
     position: absolute;
@@ -305,42 +343,59 @@ header{
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.imgCarruselPcDesempleo{
-    width: 70vw;
-    height: auto;
-    margin-top: 4%;
-    display: block;
+.divGrafica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
 }
-.imgCarruselPcIngresos{
-    width: 70vw;
-    height: auto;
-    margin-top: 4%;
-    display: block;
+.tituloGraficaChico{
+    width: 15vw;
+    height: fit-content;
 }
-.imgCarruselPcOcupaciones{
-    width: 70vw;
-    height: auto;
-    margin-top: 4%;
-    display: block;
+.grafica{
+    width: 50vw;
+    height: fit-content;
 }
+.parrafoGraficas{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1%;
+}
+.comentarioDesempleo{
+    width: 25vw;
+    height: fit-content;
+}
+.divTarjetasGraficas{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.contenedorTarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comentarioGraficas{
+    width: 15vw;
+    height: fit-content;
+    margin-bottom: 5%;
+}
+.tarjetasGraficas{
+    width: 15vw;
+    height: fit-content;
+    margin-bottom: 5%;
+}
+
 #buttonCarousel{
     color: black;
-}
-.imgCarruselMobileDesempleo {
-    display: none;
-  }
-
-.imgCarruselMobileIngresos {
-    display: none;
-}
-
-.imgCarruselMobileOcupaciones {
-    display: none;
-}
-
-.tituloGraficaChico{
-    display: none;
 }
 .modal {
     position: fixed;
@@ -672,7 +727,7 @@ header{
     #divEquipoIntegrantesDos{
         height: fit-content;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
     }
     #divEquipoIntegrantesTres{
@@ -681,23 +736,34 @@ header{
         flex-direction: row;
         justify-content: space-around;
         padding-top: 5vh;
-        padding-bottom: 10vh;
+        padding-bottom: 5vh;
+    }
+    .equipo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .equipoCuatro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 12%;
+    }
+    .imgEquipo{
+        height: 20vh;
+        margin-bottom: 3%;
+    }
+    .nombreEquipo{
+        width: 20vw;
+        height: fit-content;
     }
     #divManosEquipo{
         width: fit-content;
         display: flex;
         flex-direction: row;
         align-items: end;
-    }
-    .imgEquipo{
-        width: 30vw;
-        height: auto;
-    }
-    .imgEquipoCuatro{
-        margin-left: 0;
-        padding-left: 0;
-        width: 30vw;
-        height: auto;
     }
     .imgManosEquipo{
         position: absolute;
@@ -855,40 +921,50 @@ header{
         justify-content: center;
         align-items: center;
     }
-    .imgCarruselMobileDesempleo{
-        width: 80vw;
-        height: auto;
-        margin-top: 3%;
-        display: block;
+    .divTarjetasGraficas{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .imgCarruselMobileIngresos{
-        width: 80vw;
-        height: auto;
-        margin-top: 3%;
-        display: block;
+    .contenedorTarjetas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-    .imgCarruselMobileOcupaciones{
-        width: 80vw;
-        height: auto;
-        margin-top: 3%;
+    .tarjetasGraficas{
+        width: 30vw;
+        height: fit-content;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .tituloGraficaChico{
+        width: 50vw;
         display: block;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .grafica{
+        width: 80vw;
+        height: fit-content;
+        margin-bottom: 3%;
+    }
+    .comentarioDesempleo{
+        width: 60vw;
+        height: fit-content;
+        margin-bottom: 5%;
+    }
+    .comentarioGraficas{
+        width: 40vw;
+        height: fit-content;
+        margin-bottom: 3%;
     }
     #buttonCarousel{
         color: black;
-    }
-    .imgCarruselPcDesempleo {
-        display: none;
-      }
-      .imgCarruselPcIngresos {
-        display: none;
-      }
-      .imgCarruselPcOcupaciones {
-        display: none;
-      }
-    .tituloGraficaChico{
-        width: 70vw;
-        display: block;
-        height: auto;
     }
     .modal {
         position: fixed;
@@ -1425,23 +1501,47 @@ header{
         justify-content: center;
         align-items: center;
     }
-    .imgCarruselMobileDesempleo{
-        width: 80vw;
-        height: auto;
-        margin-top: 3%;
-        display: block;
+    .divTarjetasGraficas{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .imgCarruselMobileIngresos{
-        width: 80vw;
-        height: auto;
-        margin-top: 3%;
-        display: block;
+    .contenedorTarjetas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-    .imgCarruselMobileOcupaciones{
-        width: 80vw;
-        height: auto;
-        margin-top: 3%;
+    .tarjetasGraficas{
+        width: 30vw;
+        height: fit-content;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .tituloGraficaChico{
+        width: 50vw;
         display: block;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .grafica{
+        width: 80vw;
+        height: fit-content;
+        margin-bottom: 3%;
+    }
+    .comentarioDesempleo{
+        width: 60vw;
+        height: fit-content;
+        margin-bottom: 5%;
+    }
+    .comentarioGraficas{
+        width: 40vw;
+        height: fit-content;
+        margin-bottom: 3%;
     }
     #buttonCarousel{
         color: black;
@@ -1456,7 +1556,7 @@ header{
         display: none;
       }
     .tituloGraficaChico{
-        width: 70vw;
+        width: 50vw;
         display: block;
         height: auto;
     }

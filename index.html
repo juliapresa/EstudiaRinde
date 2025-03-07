@@ -8,15 +8,16 @@
     <meta name="google-site-verification" content="aT4FILwATHQi6Mqv30PUH5lXjbzoTGc6AWW3trEag4A" />
     <title>EstudiarRinde</title>
     <link rel="icon" href="favicon.png" type="image/png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/index.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light $purple-800">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -76,14 +77,29 @@
           </div>
           <div id="divEquipo">
             <div id="divEquipoIntegrantesUno">
-              <img title="equipo" class="imgEquipo" src="./assets/equipoUno.png" alt="img">
-              <img title="equipo" class="imgEquipo" src="./assets/equipoDos.png" alt="img">
-              <img title="equipo" class="imgEquipo" src="./assets/equipoTres.png" alt="img">
+              <div class="equipo">
+                <img title="equipo" class="imgEquipo" src="./assets/imgAndrea.png" alt="img">
+                <img title="equipo" class="nombreEquipo" src="./assets/nombreAndrea.png" alt="img">
+              </div>
+              <div class="equipo">
+                <img title="equipo" class="imgEquipo" src="./assets/imgFlorencia.png" alt="img">
+                <img title="equipo" class="nombreEquipo" src="./assets/nombreFlorencia.png" alt="img">
+              </div>
+              <div class="equipo">
+                <img title="equipo" class="imgEquipo" src="./assets/imgZuleika.png" alt="img">
+                <img title="equipo" class="nombreEquipo" src="./assets/nombreZuleika.png" alt="img">
+              </div>
             </div>
             <div id="divEquipoIntegrantesDos">
               <div id="divEquipoIntegrantesTres">
-                <img title="equipo" class="imgEquipoCuatro" src="./assets/equipoCuatro.png" alt="img">
-                <img title="equipo" class="imgEquipo" src="./assets/equipoCinco.png" alt="img">
+                <div class="equipoCuatro">
+                  <img title="equipo" class="imgEquipo" src="./assets/imgIael.png" alt="img">
+                  <img title="equipo" class="nombreEquipo" src="./assets/nombreIael.png" alt="img">
+                </div>
+                <div class="equipo">
+                  <img title="equipo" class="imgEquipo" src="./assets/imgLuis.png" alt="img">
+                  <img title="equipo" class="nombreEquipo" src="./assets/nombreLuis.png" alt="img">
+                </div>
               </div>
               <div id="divManosEquipo">
                 <img title="ilustracion" class="imgManosEquipo" src="./assets/manosEquipo.png" alt="img">
@@ -139,24 +155,55 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
                     <div class="divCarrusel">
-                      <img title="grafica" src="./assets/desempleoGrafica.png" class="imgCarruselPcDesempleo" alt="img">
-                      <img title="grafica" src="./assets/titulitoDesempleo.png" class="tituloGraficaChico" alt="img">
-                      <img title="grafica" src="./assets/desempleoMobile.png" class="imgCarruselMobileDesempleo" alt="img">
-
+                      <div class="divGrafica">
+                        <img title="grafica" class="tituloGraficaChico" src="./assets/tituloDesempleo.png"  alt="img">
+                        <img title="grafica" class="grafica desempleo" src="./assets/grafica.png" alt="img">
+                        <p class="parrafoGraficas">toca el gráfico para verlo mejor</p>
+                        <img title="grafica" class="comentarioDesempleo" src="./assets/comentarioDesempleo.png" alt="img">
+                      </div>
+                      <div class="divTarjetasGraficas">
+                        <img title="grafica" class="comentarioGraficas" src="./assets/comentarioGraficas.png" alt="img">
+                        <div class="contenedorTarjetas">
+                          <img title="grafica" class="tarjetasGraficas" src="./assets/tarjetaDesempleoUno.png" alt="img">
+                          <img title="grafica" class="tarjetasGraficas" src="./assets/tarjetaDesempleoDos.png" alt="img">
+                          <img title="grafica" class="tarjetasGraficas" src="./assets/tarjetaDesempleoTres.png" alt="img">
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <div class="divCarrusel">
-                      <img title="grafica" src="./assets/ocupacionesGrafica.png" class="imgCarruselPcOcupaciones" alt="img">
-                      <img title="grafica" src="./assets/titulitoOcupaciones.png" class="tituloGraficaChico" alt="img">
-                      <img title="grafica" src="./assets/ocupacionesMobile.png" class="imgCarruselMobileOcupaciones" alt="img">
+                      <div class="divGrafica">
+                        <img title="grafica" class="tituloGraficaChico" src="./assets/tituloOcupaciones.png" alt="img">
+                        <img title="grafica" class="grafica ocupaciones" src="./assets/graficaOcupaciones.png" alt="img">
+                        <p class="parrafoGraficas">toca el gráfico para verlo mejor</p>
+                      </div>
+                      <div class="divTarjetasGraficas">
+                        <img title="grafica" class="comentarioGraficas" src="./assets/comentarioGraficas.png" alt="img">
+                        <div class="contenedorTarjetas">
+                          <img title="grafica" class="tarjetasGraficas" src="./assets/tarjetaOcupacionesUno.png" alt="img">
+                          <img title="grafica" class="tarjetasGraficas" src="./assets/tarjetaOcupacionesDos.png" alt="img">
+                          <img title="grafica" class="tarjetasGraficas" src="./assets/tarjetaOcupacionesTres.png" alt="img">
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="divCarrusel">
-                      <img title="grafica" src="./assets/ingresosGrafica.png" class="imgCarruselPcIngresos" alt="img">
-                      <img title="grafica" src="./assets/titulitoIngresos.png" class="tituloGraficaChico" alt="img">
-                      <img title="grafica" src="./assets/ingresosMobile.png" class="imgCarruselMobileIngresos" alt="img">
+                      <div class="divCarrusel">
+                        <div class="divGrafica">
+                          <img title="grafica" class="tituloGraficaChico" src="./assets/tituloIngresos.png" alt="img">
+                          <img title="grafica" class="grafica ingresos" src="./assets/graficaIngresos.png" alt="img">
+                          <p class="parrafoGraficas">toca el gráfico para verlo mejor</p>
+                        </div>
+                        <div class="divTarjetasGraficas">
+                          <img title="grafica" class="comentarioGraficas" src="./assets/comentarioGraficas.png" alt="img">
+                          <div class="contenedorTarjetas">
+                            <img title="grafica" class="tarjetasGraficas" src="./assets/tarjetaIngresosUno.png" alt="img">
+                            <img title="grafica" class="tarjetasGraficas" src="./assets/tarjetaIngresosDos.png" alt="img">
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -205,7 +252,7 @@
               <img title="texto" class="imgContactoTres" src="./assets/contactoDos.png" alt="img">
               <div class="divTextosContacto">
                 <a target="_blank" class="textoContacto" href="mailto:estudiar.rinde@cienciassociales.edu.uy">estudiar.rinde@cienciassociales.edu.uy</a>
-                <a target="_blank" class="textoContacto" href="https://www.instagram.com/estudiarrinde?igsh=MTZsNXBzMThyZmdpNA== ">@estudiarrinde</a>
+                <a target="_blank" class="textoContacto" href="https://www.instagram.com/estudiarrinde?igsh=MTZsNXBzMThyZmdpNA==">@estudiarrinde</a>
               </div>
             </div>
           </div>
