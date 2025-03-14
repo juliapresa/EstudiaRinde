@@ -1,16 +1,20 @@
-const images = document.querySelectorAll(".hoverImage");
+const elements = document.querySelectorAll(".hoverText");
 
-images.forEach(image => {
-    const originalImage = image.src;
-    const hoverImage = image.getAttribute("data-hover");
+elements.forEach(element => {
+    const originalText = element.textContent;
+    const hoverText = element.getAttribute("data-hover");
 
-    image.addEventListener("mouseover", () => {
-        image.src = hoverImage;
+    element.addEventListener("mouseover", () => {
+        element.textContent = hoverText;
+        element.classList.add("hover-effect"); // Aplica los estilos
     });
-    image.addEventListener("mouseout", () => {
-        image.src = originalImage;
+
+    element.addEventListener("mouseout", () => {
+        element.textContent = originalText;
+        element.classList.remove("hover-effect"); // Quita los estilos
     });
 });
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("imageModal");

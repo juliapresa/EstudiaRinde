@@ -118,7 +118,7 @@ header{
 .divBarraCelesteInferior{
     width: 100vw;
     margin: 0%;
-    height: 7vh;
+    height: 6vh;
 }
 .barraCelesteInferior{
     width: 100vw;
@@ -142,8 +142,13 @@ header{
 .divQuienesSomosUno{
     height: 40vh;
     display: flex;
+    align-items: center;
 }
-.textoQuienesSomosUno{
+.vectorQuienesSomosUno{
+    width: 10vw;
+    height: fit-content;
+}
+.imgQuienesSomosUno{
     margin-top: 2%;
     width: auto;
     height: 30vh;
@@ -154,7 +159,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.textoQuienesSomosDos{
+.imgQuienesSomosDos{
     width: auto;
     height: 50vh;
     position: absolute;
@@ -170,8 +175,25 @@ header{
     left: 0;
     margin-left: 20%;
 }
-
-
+.divQuienesSomosTres{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+.textoQuienesSomos{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    width: 95%;
+}
 
 #equipo{
     background-image: url(../assets/fondoTres.png);
@@ -179,14 +201,75 @@ header{
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
 }
+    #divTituloEquipo{
+        display: flex;
+        align-items: center;
+        height: 20vh;
+        margin-left: 0%;
+    }
+    .divTituloEquipoDos{
+        position: relative;
+        display: inline-block;
+        margin-left: 0%;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 2%;
+    }
+    .imgTituloEquipo{
+        display: block;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 60vw;
+        height: auto;
+    }
+    .textoTituloEquipo{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 4vw;
+        width: 100%;
+    }
 #divTituloEquipo{
-    margin-left: 5%;
     height: 25vh;
+    display: flex;
+    align-items: center;
 }
-.tituloEquipo{
-    margin-top: 5%;
+.divTituloEquipoDos{
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2%;
+}
+.imgTituloEquipo{
+    display: block;
     width: 20vw;
+}
+.textoTituloEquipo{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; 
+    text-align: center;
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    width: 100%;
 }
 #divEquipo{
     display: flex;
@@ -301,6 +384,8 @@ header{
  }
 
 
+
+
 #sabiasQue{
     background-image: url(../assets/fondoCinco.png);
     background-repeat: no-repeat;
@@ -308,24 +393,62 @@ header{
     width: 100vw;
     height: 100vh;
     scroll-margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #divTituloSabiasQue{
+    position: relative;
+    display: inline-block;
     margin-left: 5%;
-    height: 20vh;
+    width: fit-content;
 }
-.tituloSabiasQue{
-    margin-top: 2%;
+.imgTituloSabiasQue{
+    display: block;
     width: 25vw;
+}
+.textoTituloSabiasQue{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; 
+    text-align: center;
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    width: 100%;
 }
 .divTarjetaSabiasQue{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 40vh;
+}
+.divTarjetasSabiasQueDos{
+    position: relative;
+    display: inline-block;
 }
 .tarjetaSabiasQue{
     width: auto;
     height: 30vh;
 }
+.textoSabiasQueTarjetas{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    padding: 15px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    width: 95%;
+}
+
+
 
 #graficas{
     background-image: url(../assets/fondoSeis.png);
@@ -466,18 +589,43 @@ header{
     height: fit-content;
     height: 33vh;
 }
+.divERTarjetasDos{
+    position: relative;
+    display: inline-block;
+}
 .eRTarjetaUno{
+    display: block;
     height: 25vh;
     margin-top: 5%;
 }
 .eRTarjetaDos{
+    display: block;
     height: 25vh;
 }
 .eRTarjetaTres{
+    display: block;
     height: 25vh;
     margin-bottom: 5%;
 }
-
+.textoERTarjetas{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    padding: 15px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    width: 95%;
+}
+.hover-effect{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 2vh;
+    width: 95%;
+}
 
 
 #contacto{
@@ -495,11 +643,11 @@ header{
     width: 100vw;
     align-items: center;
 }
-.imgContacto{
-    width: 42vw;
+.divContactoDos{
+    position: relative;
+    display: inline-block;
 }
-.imgContactoTres{
-    display: block;
+.imgContacto{
     width: 42vw;
 }
 .imgContactoDos{
@@ -508,9 +656,9 @@ header{
     margin-bottom: 5%;
     margin-right: 1%;
 }
-.divContactoDos{
-    position: relative;
-    display: inline-block;
+.imgContactoTres{
+    display: block;
+    width: 42vw;
 }
 .divTextosContacto{
     position: absolute;
@@ -521,13 +669,19 @@ header{
     text-align: center;
     padding: 15px; 
 }
-.textoContacto{
+.textoContactoUno{
     color: white;
     text-decoration: none;
     font-size: x-large;
     font-weight: bold;
 }
-.textoContacto:hover{
+.textoContactoDos{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+.textoContactoDos:hover{
     text-decoration: underline;
 }
 .logosFooterUdelar{
@@ -654,16 +808,20 @@ header{
         flex-direction: column;
         position: relative;
         width: 100%;
-        height: 90vh;
+        height: fit-content;
     }
     .divQuienesSomosUno{
-        height: 30vh;
+        height: fit-content;
         display: flex;
         justify-content: flex-start;
     }
-    .textoQuienesSomosUno{
+    .vectorQuienesSomosUno{
+        width: 15vw;
+        height: fit-content;
+    }
+    .imgQuienesSomosUno{
         margin-top: 5%;
-        width: 95vw;
+        width: 80vw;
         height: auto;
     }
     .divQuienesSomosDos{
@@ -673,7 +831,7 @@ header{
         justify-content: space-around;
         align-items: flex-end;
     }
-    .textoQuienesSomosDos{
+    .imgQuienesSomosDos{
         width: 70vw;
         height: auto;
         position: relative;
@@ -693,6 +851,25 @@ header{
         width: 80vw;
         height: 80vh;
     }
+    .divQuienesSomosTres{
+        position: relative;
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
+    }
+    .textoQuienesSomos{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 4vw;
+        width: 95%;
+    }
 
 
     #equipo{
@@ -706,14 +883,37 @@ header{
     #divTituloEquipo{
         display: flex;
         justify-content: center;
+        align-items: center;
+        height: 20vh;
         margin-left: 0%;
-        height: fit-content;
     }
-    .tituloEquipo{
+    .divTituloEquipoDos{
+        position: relative;
+        display: inline-block;
+        margin-left: 0%;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 2%;
+    }
+    .imgTituloEquipo{
+        display: block;
         margin-top: 5vh;
         margin-bottom: 5vh;
         width: 60vw;
         height: auto;
+    }
+    .textoTituloEquipo{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 4vw;
+        width: 100%;
     }
     #divEquipo{
         height: fit-content;
@@ -868,20 +1068,38 @@ header{
         background-size: cover;
         width: 100vw;
         height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #divTituloSabiasQue{
-        display: flex;
-        justify-content: center;
+        position: relative;
+        display: inline-block;
         margin-left: 0%;
         margin-bottom: 5%;
+        width: fit-content;
         height: fit-content;
     }
-    .tituloSabiasQue{
+    .imgTituloSabiasQue{
+        display: block;
         margin-top: 5vh;
         margin-bottom: 5vh;
         width: 60vw;
         height: auto;
 
+    }
+    .textoTituloSabiasQue{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 4vw;
+        width: 100%;
     }
     .divTarjetaSabiasQue{
         display: flex;
@@ -895,7 +1113,20 @@ header{
     .tarjetaSabiasQue{
         padding: 2%;
         width: 30vw;
-        height: auto;
+        height: fit-content;
+    }
+    .textoSabiasQueTarjetas{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        width: 95%;
     }
 
 
@@ -1043,7 +1274,7 @@ header{
     }
     .eRTarjetaUno{
         width: 30vw;
-        height: auto;
+        height: fit-content;
         margin-top: 0%;
         margin-bottom: 0%;
         padding: 1%;
@@ -1060,7 +1291,26 @@ header{
         margin-bottom: 0%;
         padding: 1%;
     }
-    
+    .textoERTarjetas{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .hover-effect{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 2vw;
+        width: 100%;
+    }
 
 
     #contacto{
@@ -1118,13 +1368,19 @@ header{
         text-align: center;
         padding: 15px; 
     }
-    .textoContacto{
+    .textoContactoUno{
         color: white;
         text-decoration: none;
         font-size: large;
         font-weight: bold;
     }
-    .textoContacto:hover{
+    .textoContactoDos{
+        color: white;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+    }
+    .textoContactoDos:hover{
         text-decoration: underline;
     }
 }
@@ -1248,26 +1504,31 @@ header{
         flex-direction: column;
         position: relative;
         width: 100%;
-        height: 90vh;
+        height: fit-content;
     }
     .divQuienesSomosUno{
-        height: 30vh;
+        height: fit-content;
         display: flex;
         justify-content: flex-start;
+        padding-top: 5%;
     }
-    .textoQuienesSomosUno{
-        margin-top: 15%;
-        width: 95vw;
+    .vectorQuienesSomosUno{
+        width: 15vw;
+        height: fit-content;
+    }
+    .imgQuienesSomosUno{
+        margin-top: 0%;
+        width: 80vw;
         height: auto;
     }
     .divQuienesSomosDos{
-        height: 60vh;
+        height: 50vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-end;
     }
-    .textoQuienesSomosDos{
+    .imgQuienesSomosDos{
         width: 70vw;
         height: auto;
         position: relative;
@@ -1287,6 +1548,25 @@ header{
         width: 80vw;
         height: 80vh;
     }
+    .divQuienesSomosTres{
+        position: relative;
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
+    }
+    .textoQuienesSomos{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 4vw;
+        width: 95%;
+    }
 
 
 
@@ -1302,14 +1582,37 @@ header{
     #divTituloEquipo{
         display: flex;
         justify-content: center;
+        align-items: center;
         height: 20vh;
         margin-left: 0%;
     }
-    .tituloEquipo{
+    .divTituloEquipoDos{
+        position: relative;
+        display: inline-block;
+        margin-left: 0%;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 2%;
+    }
+    .imgTituloEquipo{
+        display: block;
         margin-top: 5vh;
         margin-bottom: 5vh;
         width: 60vw;
         height: auto;
+    }
+    .textoTituloEquipo{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 4vw;
+        width: 100%;
     }
     #divEquipo{
         height: 70vh;
@@ -1460,20 +1763,42 @@ header{
         background-size: cover;
         width: 100vw;
         height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #divTituloSabiasQue{
+        position: relative;
+        display: inline-block;
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-left: 0%;
-        padding: 10%;
         margin-bottom: 5%;
+        padding: 10%;
+        width: fit-content;
         height: fit-content;
     }
-    .tituloSabiasQue{
+    .imgTituloSabiasQue{
+        display: block;
         margin-top: 5vh;
         margin-bottom: 5vh;
         width: 60vw;
         height: auto;
+
+    }
+    .textoTituloSabiasQue{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 4vw;
+        width: 100%;
     }
     .divTarjetaSabiasQue{
         display: flex;
@@ -1486,9 +1811,21 @@ header{
     .tarjetaSabiasQue{
         padding: 2%;
         width: 30vw;
-        height: auto;
+        height: fit-content;
     }
-
+    .textoSabiasQueTarjetas{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        width: 95%;
+    }
 
     #graficas{
         background-image: url(../assets/fondoSeis.png);
@@ -1646,24 +1983,43 @@ header{
     }
     .eRTarjetaUno{
         width: 30vw;
-        height: auto;
+        height: fit-content;
         margin-top: 0%;
         margin-bottom: 0%;
         padding: 1%;
     }
     .eRTarjetaDos{
         width: 30vw;
-        height: auto;
+        height: fit-content;
         margin-bottom: 0%;
         padding: 1%;
     }
     .eRTarjetaTres{
         width: 30vw;
-        height: auto;
+        height: fit-content;
         margin-bottom: 0%;
         padding: 1%;
     }
-    
+    .textoERTarjetas{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .hover-effect{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 2vw;
+        width: 100%;
+    }
 
 
     #contacto{
@@ -1721,13 +2077,19 @@ header{
         text-align: center;
         padding: 15px; 
     }
-    .textoContacto{
+    .textoContactoUno{
         color: white;
         text-decoration: none;
         font-size: medium;
         font-weight: bold;
     }
-    .textoContacto:hover{
+    .textoContactoDos{
+        color: white;
+        text-decoration: none;
+        font-size: medium;
+        font-weight: bold;
+    }
+    .textoContactoDos:hover{
         text-decoration: underline;
     }
 }
