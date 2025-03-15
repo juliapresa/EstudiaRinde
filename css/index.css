@@ -1113,7 +1113,7 @@ header{
     .tarjetaSabiasQue{
         padding: 2%;
         width: 30vw;
-        height: fit-content;
+        height: auto;
     }
     .textoSabiasQueTarjetas{
         position: absolute;
@@ -1274,7 +1274,7 @@ header{
     }
     .eRTarjetaUno{
         width: 30vw;
-        height: fit-content;
+        height: auto;
         margin-top: 0%;
         margin-bottom: 0%;
         padding: 1%;
@@ -1811,7 +1811,7 @@ header{
     .tarjetaSabiasQue{
         padding: 2%;
         width: 30vw;
-        height: fit-content;
+        height: auto;
     }
     .textoSabiasQueTarjetas{
         position: absolute;
@@ -1983,20 +1983,20 @@ header{
     }
     .eRTarjetaUno{
         width: 30vw;
-        height: fit-content;
+        height: auto;
         margin-top: 0%;
         margin-bottom: 0%;
         padding: 1%;
     }
     .eRTarjetaDos{
         width: 30vw;
-        height: fit-content;
+        height: auto;
         margin-bottom: 0%;
         padding: 1%;
     }
     .eRTarjetaTres{
         width: 30vw;
-        height: fit-content;
+        height: auto;
         margin-bottom: 0%;
         padding: 1%;
     }
