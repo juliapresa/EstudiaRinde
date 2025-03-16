@@ -337,15 +337,36 @@ header{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 #divTituloPreguntas{
-    margin-top: 1%;
     display: flex;
     justify-content: center;
 }
-.tituloPreguntas{
+.divTituloPreguntasDos{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1%;
+}
+.imgTituloPreguntas{
+    display: block;
     width: 60vw;
     height: 10vh;
+}
+.textoTituloPreguntas{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    width: 100%;
 }
 #divPreguntas{
     display: flex;
@@ -353,37 +374,62 @@ header{
     height: 100vh;
 }
 #divPreguntaUno{
+    display: flex;
     position: absolute;
     left: 0;
-    padding-top: 15vh;
-    margin-left: 5%;
+    margin-top: 15vh;
+    margin-left: 3%;
 }
 #divPreguntaDos{
+    display: flex;
     position: absolute;
     right: 0;
-    padding-top: 30vh;
+    margin-top: 30vh;
     margin-right: 5%;
 }
 #divPreguntaTres{
+    display: flex;
     position: absolute;
     left: 0;
-    padding-top: 45vh;
-    margin-left: 5%;
+    margin-top: 45vh;
+    margin-left: 3%;
 }
 #divPreguntaCuatro{
+    display: flex;
     position: absolute;
     right: 0;
-    padding-top: 63vh;
+    margin-top: 63vh;
     margin-right: 5%;
+}
+.divChicoPreguntas{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+}
+.textoPreguntas{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 1vw;
+    width: 100%;
 }
 .imgPregunta{
    height: 25vh;
 }
+.pregunta{
+    display: block;
+    width: 35vw;
+}
 .imgPreguntaCuatro{
     height: 30vh;
  }
-
-
 
 
 #sabiasQue{
@@ -817,7 +863,7 @@ header{
     }
     .vectorQuienesSomosUno{
         width: 15vw;
-        height: fit-content;
+        height: auto;
     }
     .imgQuienesSomosUno{
         margin-top: 5%;
@@ -985,18 +1031,39 @@ header{
         background-size: cover;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         width: 100vw;
         height: fit-content;
     }
     #divTituloPreguntas{
         display: flex;
         justify-content: center;
+    }
+    .divTituloPreguntasDos{
+        position: relative;
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
-    .tituloPreguntas{
+    .imgTituloPreguntas{
+        display: block;
         width: 90vw;
         height: auto;
+    }
+    .textoTituloPreguntas{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 3vw;
+        width: 100%;
     }
     #divPreguntas{
         display: flex;
@@ -1086,7 +1153,6 @@ header{
         margin-bottom: 5vh;
         width: 60vw;
         height: auto;
-
     }
     .textoTituloSabiasQue{
         position: absolute;
@@ -1126,7 +1192,8 @@ header{
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         font-size: 3vw;
-        width: 95%;
+        width: 100%;
+        padding: 1px;
     }
 
 
@@ -1303,13 +1370,15 @@ header{
         font-weight: 700;
         font-size: 3vw;
         width: 100%;
+        padding: 1px;
         word-wrap: break-word;
     }
     .hover-effect{
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-size: 2vw;
-        width: 100%;
+        width: 95%;
+        padding: 2px;
     }
 
 
@@ -1514,7 +1583,7 @@ header{
     }
     .vectorQuienesSomosUno{
         width: 15vw;
-        height: fit-content;
+        height: auto;
     }
     .imgQuienesSomosUno{
         margin-top: 0%;
@@ -1682,12 +1751,32 @@ header{
     #divTituloPreguntas{
         display: flex;
         justify-content: center;
+    }
+    .divTituloPreguntasDos{
+        position: relative;
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
-    .tituloPreguntas{
+    .imgTituloPreguntas{
+        display: block;
         width: 90vw;
         height: auto;
+    }
+    .textoTituloPreguntas{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 3vw;
+        width: 100%;
     }
     #divPreguntas{
         display: flex;
@@ -1824,7 +1913,8 @@ header{
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         font-size: 3vw;
-        width: 95%;
+        width: 100%;
+        padding: 1px;
     }
 
     #graficas{
@@ -2012,13 +2102,15 @@ header{
         font-weight: 700;
         font-size: 3vw;
         width: 100%;
+        padding: 1px;
         word-wrap: break-word;
     }
     .hover-effect{
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-size: 2vw;
-        width: 100%;
+        width: 95%;
+        padding: 2px;
     }
 
 
@@ -2086,7 +2178,7 @@ header{
     .textoContactoDos{
         color: white;
         text-decoration: none;
-        font-size: medium;
+        font-size: 4vw;
         font-weight: bold;
     }
     .textoContactoDos:hover{
@@ -2097,7 +2189,7 @@ header{
     .textoContacto{
         color: white;
         text-decoration: none;
-        font-size: small;
+        font-size: 3vw;
         font-weight: bold;
     }
 }
