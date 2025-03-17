@@ -148,6 +148,12 @@ header{
     width: 10vw;
     height: fit-content;
 }
+.divQuienesSomosTres{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
 .imgQuienesSomosUno{
     margin-top: 2%;
     width: auto;
@@ -162,20 +168,25 @@ header{
 .imgQuienesSomosDos{
     width: auto;
     height: 50vh;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-right: 7%;
+}
+.divMuñecoQuienesSomos{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .muñecoQuienesSomos{
     width: auto;
-    height:60vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-left: 20%;
+    height: 60vh;
 }
-.divQuienesSomosTres{
+.divQuienesSomosCuatro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+.divQuienesSomosCinco{
     position: relative;
     display: inline-block;
     width: fit-content;
@@ -194,6 +205,7 @@ header{
     font-size: 2vw;
     width: 95%;
 }
+
 
 #equipo{
     background-image: url(../assets/fondoTres.png);
@@ -318,9 +330,29 @@ header{
     height: 27vh;
     margin-bottom: 3%;
 }
-.nombreEquipo{
+.divNombreEquipo{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+.imgNombreEquipo{
+    display: block;
     width: 12vw;
     height: fit-content;
+}
+.nombreEquipo{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center;
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1vw;
+    width: 100%;
 }
 .imgManosEquipo{
     position: absolute;
@@ -922,15 +954,16 @@ header{
         height: fit-content;
         display: flex;
         justify-content: flex-start;
+        margin-top: 5%;
     }
     .vectorQuienesSomosUno{
         width: 15vw;
         height: auto;
     }
     .imgQuienesSomosUno{
-        margin-top: 5%;
         width: 80vw;
         height: auto;
+        margin: 0;
     }
     .divQuienesSomosDos{
         height: 60vh;
@@ -940,19 +973,18 @@ header{
         align-items: flex-end;
     }
     .imgQuienesSomosDos{
-        width: 70vw;
+        width: 60vw;
         height: auto;
-        position: relative;
-        bottom: 0;
-        right: 0;
-        margin-right: 0;
+    }
+    .divMuñecoQuienesSomos{
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .muñecoQuienesSomos{
-        width: 25vw;
+        width: 20vw;
         height: auto;
-        position: relative;
-        bottom: 0;
-        left: 0;
         margin-left: 0%;
     }
     #imgCarrusel{
@@ -965,6 +997,13 @@ header{
         width: fit-content;
         height: fit-content;
     }
+    .divQuienesSomosCuatro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+    }
     .textoQuienesSomos{
         position: absolute;
         top: 50%; 
@@ -975,8 +1014,9 @@ header{
         padding: 0; 
         font-family: "Poppins", sans-serif;
         font-weight: 700;
-        font-size: 4vw;
+        font-size: 3vw;
         width: 95%;
+        margin: 0;
     }
 
 
@@ -1063,15 +1103,29 @@ header{
         height: 20vh;
         margin-bottom: 3%;
     }
-    .nombreEquipo{
+    .divNombreEquipo{
+        position: relative;
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
+    }
+    .imgNombreEquipo{
+        display: block;
         width: 30vw;
         height: fit-content;
     }
-    #divManosEquipo{
-        width: fit-content;
-        display: flex;
-        flex-direction: row;
-        align-items: end;
+    .nombreEquipo{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size:3vw;
+        width: 100%;
     }
     .imgManosEquipo{
         position: absolute;
@@ -1755,6 +1809,12 @@ header{
         right: 0;
         margin-right: 0;
     }
+    .divMuñecoQuienesSomos{
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .muñecoQuienesSomos{
         width: 25vw;
         height: auto;
@@ -1773,6 +1833,13 @@ header{
         width: fit-content;
         height: fit-content;
     }
+    .divQuienesSomosCuatro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+    }
     .textoQuienesSomos{
         position: absolute;
         top: 50%; 
@@ -1786,7 +1853,9 @@ header{
         font-size: 4vw;
         width: 95%;
     }
-
+    .vectorQuienesSomosDos{
+        height: 5vh;
+    }
 
 
 
@@ -1858,21 +1927,9 @@ header{
         padding-top: 0;
         padding-bottom: 5vh;
     }
-    #divManosEquipo{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end; 
-        width: 100vw;
-        height: 15vh;
-    }
     .imgEquipo{
         width: 30vw;
         height: auto;
-    }
-    .nombreEquipo{
-        width: 30vw;
-        height: fit-content;
     }
     .equipoCuatro{
         display: flex;
@@ -1881,11 +1938,37 @@ header{
         align-items: center;
         margin-left: 0%;
     }
+    .imgNombreEquipo{
+        display: block;
+        width: 30vw;
+        height: fit-content;
+    }
+    .nombreEquipo{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; 
+        text-align: center;
+        padding: 0; 
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        width: 100%;
+    }
+    #divManosEquipo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end; 
+        width: 100vw;
+        height: 15vh;
+    }
     .imgManosEquipo{
+        position: absolute;
+        right: 0;
         width: 30vw;
     }
-
-
 
 
 
